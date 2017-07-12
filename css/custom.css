@@ -1,0 +1,192 @@
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+  text-decoration: none;
+}
+
+.hr-hidden {
+  border-top: 1px solid white;
+}
+
+
+
+/* ===================================
+      Navigation Bar
+=================================== */
+
+/* Navbar Background Color */
+.navbar-fixed-top {
+  background-color: #052049;
+  -webkit-box-shadow: 0 10px 6px -10px #777;
+  -moz-box-shadow: 0 10px 6px -10px #777;
+  box-shadow: 0 10px 6px -10px #777;
+}
+
+/* Navbard UCSF Link */
+.navbar-header a {
+  color: white;
+}
+.navbar-brand {
+  font-weight: 100;
+}
+
+/* Navbar Links */
+.navbar-nav li a {
+  color: white;
+  font-weight: 100;
+}
+.navbar-nav li a:hover {
+  color: black;
+}
+
+/* Navbar Hamburger Bar Color */
+.navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+
+
+/* ===================================
+      Jumbotron
+=================================== */
+
+.jumbotron {
+  background-color: #148CCB;
+  margin-top: 20px;
+  -webkit-box-shadow: 0 10px 6px -10px #777;
+  -moz-box-shadow: 0 10px 6px -10px #777;
+  box-shadow: 0 10px 6px -10px #777;
+}
+
+.jumbotron h1 {
+  color: white;
+  font-weight: 200;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 8);
+}
+
+.jumbotron h2 {
+  color: white;
+  font-weight: 200;
+  text-align: center;
+}
+
+.jumbotron p {
+  color: white;
+  font-weight: 200;
+  text-align: center;
+}
+
+.jumbotron btn {
+  margin: 0 auto;
+}
+
+
+/* ===================================
+      Login
+=================================== */
+
+.form-control {
+  border: 1px solid #9fcbe2;
+}
+.btn-default {
+  border: 1px solid #9fcbe2;
+}
+
+
+
+/* ===================================
+      Thumbnail
+=================================== */
+
+.thumbnail {
+  background-color: #e8f4fa;
+  border: 1px solid #9fcbe2;
+  -webkit-box-shadow: 0 5px 3px -5px #777;
+  -moz-box-shadow: 0 5px 3px -5px #777;
+  box-shadow: 0 5px 3px -5px #777;
+}
+
+
+
+/* ===================================
+      body
+=================================== */
+
+.mxDefault{
+  background-color: #5dafdb;
+  margin-bottom: 10px;
+}
+
+.mxSpecific {
+  background-color: #fff199;
+  margin-bottom: 10px;
+}
+
+.text-hint {
+  color: #9c9aC9;
+}
+
+
+#above-ground-tank-attr,
+#air-compressor-attr,
+#air-conditioning-unit-attr,
+#air-dryer-attr,
+#air-flow-control-terminal-attr,
+#air-handling-unit-attr,
+#air-pressure-tank-attr,
+#air-separator-attr,
+#automatic-transfer-switch-attr,
+#backflow-prevention-device-attr,
+#boiler-feedwater-pump-attr,
+#chemical-injection-pump-attr,
+#chill-water-pump-attr,
+#chiller-air-cooled-attr,
+#chiller-water-cooled-attr,
+#chiller-absorption-attr,
+#clocks-automated-attr,
+#condensate-return-pump-attr,
+#condensate-tank-attr,
+#condensate-drain-pump-attr,
+#condenser-water-pump-attr,
+#condensing-unit-attr,
+#conductivity-controller-attr,
+#control-air-compressor-attr,
+#control-air-dryer-attr,
+#control-damper-attr,
+#control-panel-attr,
+#cooling-coils-attr,
+#cooling-tower-attr,
+#cooling-tower-filter-attr,
+#cooling-tower-filter-pump-attr,
+#day-tank-attr,
+#deaerator-attr,
+#deaerator-pump-attr,
+#distilled-water-service-pump-attr,
+#domestic-cold-water-booster-system-attr,
+#domestic-cold-water-pump-attr,
+#domestic-hot-water-boiler-attr,
+#domestic-hot-water-heater-attr,
+#domestic-hot-water-pump-attr {
+  display: none;
+}
+
+/* DEFAULT  */
+
+#above-ground-storage-tank-default-show,
+#air-compressor-default-show,
+#air-conditioning-unit-default-show,
+#air-dryer-default-show,
+#air-flow-control-terminal-default-show,
+#air-handling-unit-default-show,
+#air-pressure-tank-default-show,
+#air-separator-default-show,
+#automatic-transfer-switch-default-show,
+#backflow-prevention-device-default-show,
+#boiler-feedwater-pump-default-show,
+#chemical-injection-pump-default-show,
+#chill-water-pump-default-show {
+  display: none;
+}
