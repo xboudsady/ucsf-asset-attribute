@@ -1814,11 +1814,11 @@
       <div id="chiller-air-cooled-attr">
         <div class="col-sm-9">
           <div class="row">
-            <div class="col-sm-12 mxDefault">
+            <div class="col-sm-12 mxDefault" id="chiller-air-cooled-default">
               <h5>Maximo Default</h5>
             </div>
           </div>
-          <div class="row">
+          <div class="row" id="chiller-air-cooled-default-show">
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
@@ -1829,7 +1829,7 @@
             <div class="col-sm-3">
               <!-- Column 2 -->
               <ul>
-                <li>Location
+                <li><strong>Location</strong>
                   <ul>
                     <li>Building</li>
                     <li>Floor</li>
@@ -2045,11 +2045,11 @@
       <div id="chiller-water-cooled-attr">
         <div class="col-sm-9">
           <div class="row">
-            <div class="col-sm-12 mxDefault">
+            <div class="col-sm-12 mxDefault" id="chiller-water-cooled-default">
               <h5>Maximo Default</h5>
             </div>
           </div>
-          <div class="row">
+          <div class="row" id="chiller-water-cooled-default-show">
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
@@ -2060,7 +2060,7 @@
             <div class="col-sm-3">
               <!-- Column 2 -->
               <ul>
-                <li>Location
+                <li><strong>Location</strong>
                   <ul>
                     <li>Building</li>
                     <li>Floor</li>
@@ -2218,11 +2218,11 @@
       <div id="chiller-absorption-attr">
         <div class="col-sm-9">
           <div class="row">
-            <div class="col-sm-12 mxDefault">
+            <div class="col-sm-12 mxDefault" id="chiller-absorption-default">
               <h5>Maximo Default</h5>
             </div>
           </div>
-          <div class="row">
+          <div class="row" id="chiller-absorption-default-show">
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
@@ -2233,7 +2233,7 @@
             <div class="col-sm-3">
               <!-- Column 2 -->
               <ul>
-                <li>Location
+                <li><strong>Location</strong>
                   <ul>
                     <li>Building</li>
                     <li>Floor</li>
@@ -2331,11 +2331,11 @@
       <div id="clocks-automated-attr">
         <div class="col-sm-9">
           <div class="row">
-            <div class="col-sm-12 mxDefault">
+            <div class="col-sm-12 mxDefault" id="clocks-automated-default">
               <h5>Maximo Default</h5>
             </div>
           </div>
-          <div class="row">
+          <div class="row" id="clocks-automated-default-show">
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
@@ -2346,7 +2346,7 @@
             <div class="col-sm-3">
               <!-- Column 2 -->
               <ul>
-                <li>Location
+                <li><strong>Location</strong>
                   <ul>
                     <li>Building</li>
                     <li>Floor</li>
@@ -2417,22 +2417,22 @@
     </div>  <!-- / CLOCKS AUTOMATED -->
 
 
-    <!-- CONDENSATE RETURN PUMP -->
+    <!-- CONDENSATE DRAIN PUMP -->
     <div class="row">
       <div class="col-sm-3">
-        <a id="condensate-return-pump">
-          <h4>Condensate Return Pump </h4>
+        <a id="condensate-drain-pump">
+          <h4>Condensate -- Drain Pump</h4>
         </a>
       </div>
       <!-- Equipment Attributes -->
-      <div id="condensate-return-pump-attr">
+      <div id="condensate-drain-pump-attr">
         <div class="col-sm-9">
           <div class="row">
-            <div class="col-sm-12 mxDefault">
+            <div class="col-sm-12 mxDefault" id="condensate-drain-pump-default">
               <h5>Maximo Default</h5>
             </div>
           </div>
-          <div class="row">
+          <div class="row" id="condensate-drain-pump-default-show">
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
@@ -2443,7 +2443,148 @@
             <div class="col-sm-3">
               <!-- Column 2 -->
               <ul>
-                <li>Location
+                <li><strong>Location</strong>
+                  <ul>
+                    <li>Building</li>
+                    <li>Floor</li>
+                    <li>Room</li>
+                    <li>Reference Location</li>
+                    <li>Area of Service</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 3 -->
+              <ul>
+                <li>Manufacturer</li>
+                <li>Model</li>
+                <li>Serial Number</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 4 -->
+              <ul>
+                <li>Installation Date</li>
+                <li>Purchase Price</li>
+                <li>Replacement Cost</li>
+                <li>Warranty Date</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 mxSpecific">
+              <h5>Equipment Specific</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              <!-- Column 1 -->
+              <ul>
+                <li><strong>Pump</strong>
+                  <ul>
+                    <li>Fluid Flow Rate</li>
+                    <li>GPM</li>
+                    <li>RPM</li>
+                    <li>Impellar Diameter</li>
+                    <li>Shaft Size</li>
+                    <li>Total Head PSI</li>
+                    <li>Discharge PSI</li>
+                    <li>Operating PSI</li>
+                    <li>Bearing Size</li>
+                    <li>Bushing</li>
+                    <li>Seal Kit No.</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 2 -->
+              <ul>
+                <li><strong>Motor</strong>
+                  <ul>
+                    <li>Manufacturer</li>
+                    <li>Model</li>
+                    <li>RPM</li>
+                    <li>Type</li>
+                    <li>Service Factor</li>
+                    <li>Frame</li>
+                    <li>Horsepower</li>
+                    <li>Phase</li>
+                    <li>Amps</li>
+                    <li>Volts</li>
+                    <li>Design</li>
+                    <li>Duty</li>
+                    <li>Enclosure</li>
+                    <li>Bearing 1</li>
+                    <li>Bearing 2</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 3 -->
+              <ul>
+                <li><strong>Linestarter</strong>
+                  <ul>
+                    <li>Manufacturer</li>
+                    <li>Model</li>
+                    <li>CAT No.</li>
+                    <li>Max Amps</li>
+                    <li>NEMA Size</li>
+                    <li>Style</li>
+                    <li>Control Voltage</li>
+                    <li>Voltage</li>
+                    <li>Code</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 4 -->
+              <ul>
+                <li><strong>Energy Source</strong>
+                  <ul>
+                    <li>Panel No.</li>
+                    <li>Breaker No.</li>
+                  </lu>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- / Equipment Attributes -->
+    </div>  <!-- / CONDENSATE DRAIN PUMP -->
+
+
+    <!-- CONDENSATE RETURN PUMP -->
+    <div class="row">
+      <div class="col-sm-3">
+        <a id="condensate-return-pump">
+          <h4>Condensate -- Return Pump </h4>
+        </a>
+      </div>
+      <!-- Equipment Attributes -->
+      <div id="condensate-return-pump-attr">
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-12 mxDefault" id="condensate-return-pump-default">
+              <h5>Maximo Default</h5>
+            </div>
+          </div>
+          <div class="row" id="condensate-return-pump-default-show">
+            <div class="col-sm-3">
+              <!-- Column 1 -->
+              <ul>
+                <li>Asset Number</li>
+                <li>Facilities Services Asset Item ID</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 2 -->
+              <ul>
+                <li><strong>Location</strong>
                   <ul>
                     <li>Building</li>
                     <li>Floor</li>
@@ -2562,18 +2703,18 @@
     <div class="row">
       <div class="col-sm-3">
         <a id="condensate-tank">
-          <h4>Condensate Tank</h4>
+          <h4>Condensate -- Tank</h4>
         </a>
       </div>
       <!-- Equipment Attributes -->
       <div id="condensate-tank-attr">
         <div class="col-sm-9">
           <div class="row">
-            <div class="col-sm-12 mxDefault">
+            <div class="col-sm-12 mxDefault" id="condensate-tank-default">
               <h5>Maximo Default</h5>
             </div>
           </div>
-          <div class="row">
+          <div class="row" id="condensate-tank-default-show">
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
@@ -2584,7 +2725,7 @@
             <div class="col-sm-3">
               <!-- Column 2 -->
               <ul>
-                <li>Location
+                <li><strong>Location</strong>
                   <ul>
                     <li>Building</li>
                     <li>Floor</li>
@@ -2664,114 +2805,22 @@
     </div>  <!-- / CONDENSATE TANK -->
 
 
-    <!-- CONDENSATE DRAIN PUMP -->
-    <div class="row">
-      <div class="col-sm-3">
-        <a id="condensate-drain-pump">
-          <h4><span style="color:red;">*</span> Condensate Drain Pump</h4>
-        </a>
-      </div>
-      <!-- Equipment Attributes -->
-      <div id="condensate-drain-pump-attr">
-        <div class="col-sm-9">
-          <div class="row">
-            <div class="col-sm-12 mxDefault">
-              <h5>Maximo Default</h5>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-3">
-              <!-- Column 1 -->
-              <ul>
-                <li>Asset Number</li>
-                <li>Facilities Services Asset Item ID</li>
-              </ul>
-            </div>
-            <div class="col-sm-3">
-              <!-- Column 2 -->
-              <ul>
-                <li>Location
-                  <ul>
-                    <li>Building</li>
-                    <li>Floor</li>
-                    <li>Room</li>
-                    <li>Reference Location</li>
-                    <li>Area of Service</li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-            <div class="col-sm-3">
-              <!-- Column 3 -->
-              <ul>
-                <li>Manufacturer</li>
-                <li>Model</li>
-                <li>Serial Number</li>
-              </ul>
-            </div>
-            <div class="col-sm-3">
-              <!-- Column 4 -->
-              <ul>
-                <li>Installation Date</li>
-                <li>Purchase Price</li>
-                <li>Replacement Cost</li>
-                <li>Warranty Date</li>
-              </ul>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-12 mxSpecific">
-              <h5>Equipment Specific</h5>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-3">
-              <!-- Column 1 -->
-              <ul>
-              </ul>
-            </div>
-            <div class="col-sm-3">
-              <!-- Column 2 -->
-              <ul></ul>
-            </div>
-            <div class="col-sm-3">
-              <!-- Column 3 -->
-              <ul></ul>
-            </div>
-            <div class="col-sm-3">
-              <!-- Column 4 -->
-              <ul>
-                <li><strong>Energy Source</strong>
-                  <ul>
-                    <li>Panel No.</li>
-                    <li>Breaker No.</li>
-                  </lu>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- / Equipment Attributes -->
-    </div>  <!-- / CONDENSATE DRAIN PUMP -->
-
-
     <!-- CONDENSER WATER PUMP -->
     <div class="row">
       <div class="col-sm-3">
         <a id="condenser-water-pump">
-          <h4>Condenser Water Pump</h4>
+          <h4>Condenser -- Water Pump</h4>
         </a>
       </div>
       <!-- Equipment Attributes -->
       <div id="condenser-water-pump-attr">
         <div class="col-sm-9">
           <div class="row">
-            <div class="col-sm-12 mxDefault">
+            <div class="col-sm-12 mxDefault" id="condenser-water-pump-default">
               <h5>Maximo Default</h5>
             </div>
           </div>
-          <div class="row">
+          <div class="row" id="condenser-water-pump-default-show">
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
@@ -2782,7 +2831,7 @@
             <div class="col-sm-3">
               <!-- Column 2 -->
               <ul>
-                <li>Location
+                <li><strong>Location</strong>
                   <ul>
                     <li>Building</li>
                     <li>Floor</li>
@@ -2921,11 +2970,11 @@
       <div id="condensing-unit-attr">
         <div class="col-sm-9">
           <div class="row">
-            <div class="col-sm-12 mxDefault">
+            <div class="col-sm-12 mxDefault" id="condensing-unit-default">
               <h5>Maximo Default</h5>
             </div>
           </div>
-          <div class="row">
+          <div class="row" id="condensing-unit-default-show">
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
@@ -2936,7 +2985,7 @@
             <div class="col-sm-3">
               <!-- Column 2 -->
               <ul>
-                <li>Location
+                <li><strong>Location</strong>
                   <ul>
                     <li>Building</li>
                     <li>Floor</li>
@@ -3098,18 +3147,18 @@
     <div class="row">
       <div class="col-sm-3">
         <a id="conductivity-controller">
-          <h4><span style="color:red;">*</span> Conductivity Controller</h4>
+          <h4><span style="color:red;">*</span> Conductivity -- Controller</h4>
         </a>
       </div>
       <!-- Equipment Attributes -->
       <div id="conductivity-controller-attr">
         <div class="col-sm-9">
           <div class="row">
-            <div class="col-sm-12 mxDefault">
+            <div class="col-sm-12 mxDefault" id="conductivity-controller-default">
               <h5>Maximo Default</h5>
             </div>
           </div>
-          <div class="row">
+          <div class="row" id="conductivity-controller-default-show">
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
@@ -3120,7 +3169,7 @@
             <div class="col-sm-3">
               <!-- Column 2 -->
               <ul>
-                <li>Location
+                <li><strong>Location</strong>
                   <ul>
                     <li>Building</li>
                     <li>Floor</li>
@@ -3195,18 +3244,18 @@
     <div class="row">
       <div class="col-sm-3">
         <a id="control-air-compressor">
-          <h4><span style="color:red;">*</span> Control Air Compressor</h4>
+          <h4><span style="color:red;">*</span> Control -- Air Compressor</h4>
         </a>
       </div>
       <!-- Equipment Attributes -->
       <div id="control-air-compressor-attr">
         <div class="col-sm-9">
           <div class="row">
-            <div class="col-sm-12 mxDefault">
+            <div class="col-sm-12 mxDefault" id="control-air-compressor-default">
               <h5>Maximo Default</h5>
             </div>
           </div>
-          <div class="row">
+          <div class="row" id="control-air-compressor-default-show">
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
@@ -3217,7 +3266,7 @@
             <div class="col-sm-3">
               <!-- Column 2 -->
               <ul>
-                <li>Location
+                <li><strong>Location</strong>
                   <ul>
                     <li>Building</li>
                     <li>Floor</li>
@@ -3362,18 +3411,18 @@
     <div class="row">
       <div class="col-sm-3">
         <a id="control-air-dryer">
-          <h4><span style="color:red;">*</span> Control Air Dryer</h4>
+          <h4><span style="color:red;">*</span> Control -- Air Dryer</h4>
         </a>
       </div>
       <!-- Equipment Attributes -->
       <div id="control-air-dryer-attr">
         <div class="col-sm-9">
           <div class="row">
-            <div class="col-sm-12 mxDefault">
+            <div class="col-sm-12 mxDefault" id="control-air-dryer-default">
               <h5>Maximo Default</h5>
             </div>
           </div>
-          <div class="row">
+          <div class="row" id="control-air-dryer-default-show">
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
@@ -3384,7 +3433,7 @@
             <div class="col-sm-3">
               <!-- Column 2 -->
               <ul>
-                <li>Location
+                <li><strong>Location</strong>
                   <ul>
                     <li>Building</li>
                     <li>Floor</li>
@@ -3473,18 +3522,18 @@
     <div class="row">
       <div class="col-sm-3">
         <a id="control-damper">
-          <h4><span style="color:red;">*</span> Control Damper</h4>
+          <h4><span style="color:red;">*</span> Control -- Damper</h4>
         </a>
       </div>
       <!-- Equipment Attributes -->
       <div id="control-damper-attr">
         <div class="col-sm-9">
           <div class="row">
-            <div class="col-sm-12 mxDefault">
+            <div class="col-sm-12 mxDefault" id="control-damper-default">
               <h5>Maximo Default</h5>
             </div>
           </div>
-          <div class="row">
+          <div class="row" id="control-damper-default-show">
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
@@ -3495,7 +3544,7 @@
             <div class="col-sm-3">
               <!-- Column 2 -->
               <ul>
-                <li>Location
+                <li><strong>Location</strong>
                   <ul>
                     <li>Building</li>
                     <li>Floor</li>
@@ -3593,11 +3642,11 @@
       <div id="control-panel-attr">
         <div class="col-sm-9">
           <div class="row">
-            <div class="col-sm-12 mxDefault">
+            <div class="col-sm-12 mxDefault" id="control-panel-default">
               <h5>Maximo Default</h5>
             </div>
           </div>
-          <div class="row">
+          <div class="row" id="control-panel-default-show">
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
@@ -3608,7 +3657,7 @@
             <div class="col-sm-3">
               <!-- Column 2 -->
               <ul>
-                <li>Location
+                <li><strong>Location</strong>
                   <ul>
                     <li>Building</li>
                     <li>Floor</li>
@@ -3646,30 +3695,30 @@
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
-                <li></li>
-              </ul>
-            </div>
-            <div class="col-sm-3">
-              <!-- Column 2 -->
-              <ul>
-                <li></li>
-              </ul>
-            </div>
-            <div class="col-sm-3">
-              <!-- Column 3 -->
-              <ul>
-                <li></li>
-              </ul>
-            </div>
-            <div class="col-sm-3">
-              <!-- Column 4 -->
-              <ul>
                 <li><strong>Energy Source</strong>
                   <ul>
                     <li>Panel No.</li>
                     <li>Breaker No.</li>
                   </ul>
                 </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 2 -->
+              <ul>
+                
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 3 -->
+              <ul>
+                
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 4 -->
+              <ul>
+                
               </ul>
             </div>
           </div>
@@ -3690,11 +3739,11 @@
       <div id="cooling-coils-attr">
         <div class="col-sm-9">
           <div class="row">
-            <div class="col-sm-12 mxDefault">
+            <div class="col-sm-12 mxDefault" id="cooling-coils-default">
               <h5>Maximo Default</h5>
             </div>
           </div>
-          <div class="row">
+          <div class="row" id="cooling-coils-default-show">
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
@@ -3705,7 +3754,7 @@
             <div class="col-sm-3">
               <!-- Column 2 -->
               <ul>
-                <li>Location
+                <li><strong>Location</strong>
                   <ul>
                     <li>Building</li>
                     <li>Floor</li>
@@ -3815,11 +3864,11 @@
       <div id="cooling-tower-attr">
         <div class="col-sm-9">
           <div class="row">
-            <div class="col-sm-12 mxDefault">
+            <div class="col-sm-12 mxDefault" id="cooling-tower-default">
               <h5>Maximo Default</h5>
             </div>
           </div>
-          <div class="row">
+          <div class="row" id="cooling-tower-default-show">
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
@@ -3830,7 +3879,7 @@
             <div class="col-sm-3">
               <!-- Column 2 -->
               <ul>
-                <li>Location
+                <li><strong>Location</strong>
                   <ul>
                     <li>Building</li>
                     <li>Floor</li>
@@ -3976,11 +4025,11 @@
       <div id="cooling-tower-filter-attr">
         <div class="col-sm-9">
           <div class="row">
-            <div class="col-sm-12 mxDefault">
+            <div class="col-sm-12 mxDefault" id="cooling-tower-filter-default">
               <h5>Maximo Default</h5>
             </div>
           </div>
-          <div class="row">
+          <div class="row" id="cooling-tower-filter-default-show">
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
@@ -3991,7 +4040,7 @@
             <div class="col-sm-3">
               <!-- Column 2 -->
               <ul>
-                <li>Location
+                <li><strong>Location</strong>
                   <ul>
                     <li>Building</li>
                     <li>Floor</li>
@@ -4061,18 +4110,18 @@
     <div class="row">
       <div class="col-sm-3">
         <a id="cooling-tower-filter-pump">
-          <h4><span style="color:red;">*</span> Cooling Tower Filter - Pump</h4>
+          <h4><span style="color:red;">*</span> Cooling Tower -- Filter Pump</h4>
         </a>
       </div>
       <!-- Equipment Attributes -->
       <div id="cooling-tower-filter-pump-attr">
         <div class="col-sm-9">
           <div class="row">
-            <div class="col-sm-12 mxDefault">
+            <div class="col-sm-12 mxDefault" id="cooling-tower-filter-pump-default">
               <h5>Maximo Default</h5>
             </div>
           </div>
-          <div class="row">
+          <div class="row" id="cooling-tower-filter-pump-default-show">
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
@@ -4230,11 +4279,11 @@
       <div id="day-tank-attr">
         <div class="col-sm-9">
           <div class="row">
-            <div class="col-sm-12 mxDefault">
+            <div class="col-sm-12 mxDefault" id="day-tank-default">
               <h5>Maximo Default</h5>
             </div>
           </div>
-          <div class="row">
+          <div class="row" id="day-tank-default-show">
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
@@ -4322,11 +4371,11 @@
       <div id="deaerator-attr">
         <div class="col-sm-9">
           <div class="row">
-            <div class="col-sm-12 mxDefault">
+            <div class="col-sm-12 mxDefault" id="deaerator-default">
               <h5>Maximo Default</h5>
             </div>
           </div>
-          <div class="row">
+          <div class="row" id="deaerator-default-show">
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
@@ -4431,11 +4480,11 @@
       <div id="deaerator-pump-attr">
         <div class="col-sm-9">
           <div class="row">
-            <div class="col-sm-12 mxDefault">
+            <div class="col-sm-12 mxDefault" id="deaerator-pump-default">
               <h5>Maximo Default</h5>
             </div>
           </div>
-          <div class="row">
+          <div class="row" id="deaerator-pump-default-show">
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
@@ -4593,11 +4642,11 @@
       <div id="distilled-water-service-pump-attr">
         <div class="col-sm-8">
           <div class="row">
-            <div class="col-sm-12 mxDefault">
+            <div class="col-sm-12 mxDefault" id="distilled-water-service-pump-default">
               <h5>Maximo Default</h5>
             </div>
           </div>
-          <div class="row">
+          <div class="row" id="distilled-water-service-pump-default-show">
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
@@ -4755,11 +4804,11 @@
       <div id="domestic-cold-water-booster-system-attr">
         <div class="col-sm-8">
           <div class="row">
-            <div class="col-sm-12 mxDefault">
+            <div class="col-sm-12 mxDefault" id="domestic-cold-water-booster-system-default">
               <h5>Maximo Default</h5>
             </div>
           </div>
-          <div class="row">
+          <div class="row" id="domestic-cold-water-booster-system-default-show">
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
@@ -4904,11 +4953,11 @@
       <div id="domestic-cold-water-pump-attr">
         <div class="col-sm-8">
           <div class="row">
-            <div class="col-sm-12 mxDefault">
+            <div class="col-sm-12 mxDefault" id="domestic-cold-water-pump-default">
               <h5>Maximo Default</h5>
             </div>
           </div>
-          <div class="row">
+          <div class="row" id="domestic-cold-water-pump-default-show">
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
@@ -5053,11 +5102,11 @@
       <div id="domestic-hot-water-boiler-attr">
         <div class="col-sm-9">
           <div class="row">
-            <div class="col-sm-12 mxDefault">
+            <div class="col-sm-12 mxDefault" id="domestic-hot-water-boiler-default">
               <h5>Maximo Default</h5>
             </div>
           </div>
-          <div class="row">
+          <div class="row" id="domestic-hot-water-boiler-default-show">
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
@@ -5226,11 +5275,11 @@
       <div id="domestic-hot-water-heater-attr">
         <div class="col-sm-9">
           <div class="row">
-            <div class="col-sm-12 mxDefault">
+            <div class="col-sm-12 mxDefault" id="domestic-hot-water-heater-default">
               <h5>Maximo Default</h5>
             </div>
           </div>
-          <div class="row">
+          <div class="row" id="domestic-hot-water-heater-default-show">
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
@@ -5335,11 +5384,11 @@
       <div id="domestic-hot-water-pump-attr">
         <div class="col-sm-9">
           <div class="row">
-            <div class="col-sm-12 mxDefault">
+            <div class="col-sm-12 mxDefault" id="domestic-hot-water-pump-default">
               <h5>Maximo Default</h5>
             </div>
           </div>
-          <div class="row">
+          <div class="row" id="domestic-hot-water-pump-default-show">
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
@@ -5485,6 +5534,873 @@
       <!-- / Equipment Attributes -->
     </div>  <!-- / DOMESTIC HOT WATER PUMP -->
 
+
+    <!-- DUST COLLECTOR -->
+    <div class="row">
+      <div class="col-sm-3">
+        <a id="dust-collector">
+          <h4><span style="color:red;">*</span> Dust Collector</h4>
+        </a>
+      </div>
+      <!-- Equipment Attributes -->
+      <div id="dust-collector-attr">
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-12 mxDefault" id="dust-collector-default">
+              <h5>Maximo Default</h5>
+            </div>
+          </div>
+          <div class="row" id="dust-collector-default-show">
+            <div class="col-sm-3">
+              <!-- Column 1 -->
+              <ul>
+                <li>Asset Number</li>
+                <li>Facilities Services Asset Item ID</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 2 -->
+              <ul>
+                <li><strong>Location</strong>
+                  <ul>
+                    <li>Building</li>
+                    <li>Floor</li>
+                    <li>Room</li>
+                    <li>Reference Location</li>
+                    <li>Area of Service</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 3 -->
+              <ul>
+                <li>Manufacturer</li>
+                <li>Model</li>
+                <li>Serial Number</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 4 -->
+              <ul>
+                <li>Installation Date</li>
+                <li>Purchase Price</li>
+                <li>Replacement Cost</li>
+                <li>Warranty Date</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 mxSpecific">
+              <h5>Equipment Specific</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              <!-- Column 1 -->
+              <ul>
+                <li><strong>Type</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Inertial Seperator</li>
+                    <li>Fabric Filter</li>
+                    <li>Wet Scrubber</li>
+                    <li>Unit Collector</li>
+                    <li>Electrostatic Precipitator</li>
+                  </ul>
+                </li>
+                <li><strong>Configuration</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Ambient</li>
+                    <li>Collection Booth</li>
+                    <li>Downdraft Table</li>
+                    <li>Portable</li>
+                    <li>Stationary</li>
+                  </ul>
+                </li>
+                <li><strong>Air Flow (SCFM)</strong></li>
+                <li><strong>Min. Particle Size Filtered</strong></li>
+                <li><strong>Continuous Duty</strong></li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 2 -->
+              <ul>
+                <li><strong>Fan</strong>
+                  <ul>
+                    <li>RPM</li>
+                    <li>CFM</li>
+                    <li><strong>Motor</strong>
+                      <ul>
+                        <li>Sheave</li>
+                        <li>Bushing</li>
+                      </ul>
+                    </li>
+                    <li>Bearing</li>
+                    <li>Sheave</li>
+                    <li>Bushing</li>
+                    <li>Shaft</li>
+                    <li>Recommended Grease</li>
+                  </ul>
+                </li>
+                <li><strong>V-Belt</strong>
+                  <ul>
+                    <li>Type</li>
+                    <li>Quantity</li>
+                  </ul>
+                </li>
+                <li><strong>Filter</strong>
+                  <ul>
+                    <li>Type</li>
+                    <li>Size</li>
+                    <li>Quantity</li>
+                  </ul>
+                </li>
+                <li><strong>Inlet</strong>
+                  <ul>
+                    <li>Quantity</li>
+                    <li>Diameter</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 3 -->
+              <ul>
+                <li><strong>Motor</strong>
+                  <ul>
+                    <li>Manufacturer</li>
+                    <li>Model No.</li>
+                    <li>Serial</li>
+                    <li>Type</li>
+                    <li>Service Factor</li>
+                    <li>RPM</li>
+                    <li>Hertz</li>
+                    <li>Phase</li>
+                    <li>Horsepower</li>
+                    <li>Amps</li>
+                    <li>Volts</li>
+                    <li>Bearing 1</li>
+                    <li>Bearing 2</li>
+                    <li>Bushing</li>
+                    <li>Design</li>
+                    <li>Duty</li>
+                    <li>Enclosure</li>
+                    <li>Frame</li>
+                    <li>Insulation Class</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 4 -->
+              <ul>
+                <li><strong>Line Starter</strong>
+                  <ul>
+                    <li>Manufacturer</li>
+                    <li>Model</li>
+                    <li>Max Amp</li>
+                    <li>Code</li>
+                    <li>CAT No.</li>
+                    <li>Control Voltage</li>
+                    <li>Voltage</li>
+                    <li>NEMA Size</li>
+                    <li>Style</li>
+                  </ul>
+                </li>
+                <li><strong>Energy Source</strong>
+                  <ul>
+                    <li>Panel No.</li>
+                    <li>Breaker No.</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- / Equipment Attributes -->
+    </div>  <!-- / DUST COLLECTOR -->
+
+
+    <!-- ELECTRICAL SUB PANEL -->
+    <div class="row">
+      <div class="col-sm-3">
+        <a id="electrical-sub-panel">
+          <h4><span style="color:red;">*</span> Electrical Sub Panel</h4>
+        </a>
+      </div>
+      <!-- Equipment Attributes -->
+      <div id="electrical-sub-panel-attr">
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-12 mxDefault" id="electrical-sub-panel-default">
+              <h5>Maximo Default</h5>
+            </div>
+          </div>
+          <div class="row" id="electrical-sub-panel-default-show">
+            <div class="col-sm-3">
+              <!-- Column 1 -->
+              <ul>
+                <li>Asset Number</li>
+                <li>Facilities Services Asset Item ID</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 2 -->
+              <ul>
+                <li><strong>Location</strong>
+                  <ul>
+                    <li>Building</li>
+                    <li>Floor</li>
+                    <li>Room</li>
+                    <li>Reference Location</li>
+                    <li>Area of Service</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 3 -->
+              <ul>
+                <li>Manufacturer</li>
+                <li>Model</li>
+                <li>Serial Number</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 4 -->
+              <ul>
+                <li>Installation Date</li>
+                <li>Purchase Price</li>
+                <li>Replacement Cost</li>
+                <li>Warranty Date</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 mxSpecific">
+              <h5>Equipment Specific</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              <!-- Column 1 -->
+              <ul>
+                <li>Available Short Circut Current</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 2 -->
+              <ul>
+                <li>Amperage</li>
+                <li>Voltage</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 3 -->
+              <ul>
+                <li>Breaker Type</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 4 -->
+              <ul>
+                <li><strong>Energy Source</strong>
+                  <ul>
+                    <li>Panel No.</li>
+                    <li>Breaker No.</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- / Equipment Attributes -->
+    </div>  <!-- / ELECTRICAL SUB PANEL -->
+
+
+    <!-- ELEVATOR -->
+    <div class="row">
+      <div class="col-sm-3">
+        <a id="elevator">
+          <h4><span style="color:red;">*</span> Elevator</h4>
+        </a>
+      </div>
+      <!-- Equipment Attributes -->
+      <div id="elevator-attr">
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-12 mxDefault" id="elevator-default">
+              <h5>Maximo Default</h5>
+            </div>
+          </div>
+          <div class="row" id="elevator-default-show">
+            <div class="col-sm-3">
+              <!-- Column 1 -->
+              <ul>
+                <li>Asset Number</li>
+                <li>Facilities Services Asset Item ID</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 2 -->
+              <ul>
+                <li><strong>Location</strong>
+                  <ul>
+                    <li>Building</li>
+                    <li>Floor</li>
+                    <li>Room</li>
+                    <li>Reference Location</li>
+                    <li>Area of Service</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 3 -->
+              <ul>
+                <li>Manufacturer</li>
+                <li>Model</li>
+                <li>Serial Number</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 4 -->
+              <ul>
+                <li>Installation Date</li>
+                <li>Purchase Price</li>
+                <li>Replacement Cost</li>
+                <li>Warranty Date</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 mxSpecific">
+              <h5>Equipment Specific</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              <!-- Column 1 -->
+              <ul>
+                <li><strong>Classification</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Passenger</li>
+                    <li>Freight</li>
+                    <li>Lift</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 2 -->
+              <ul>
+                <li><strong>Type</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Hydraulic</li>
+                    <li>Traction</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 3 -->
+              <ul>
+                <li>Elevator Phone No.</li>
+                <li>State ID</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 4 -->
+              <ul>
+                <li><strong>Energy Source</strong>
+                  <ul>
+                    <li>Panel No.</li>
+                    <li>Breaker No.</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- / Equipment Attributes -->
+    </div>  <!-- / ELEVATOR -->
+
+
+    <!-- EMERGENCY DIESEL GENERATOR -->
+    <div class="row">
+      <div class="col-sm-3">
+        <a id="emergency-diesel-generator">
+          <h4><span style="color:red;">*</span> Emergency Diesel Generator</h4>
+        </a>
+      </div>
+      <!-- Equipment Attributes -->
+      <div id="emergency-diesel-generator-attr">
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-12 mxDefault" id="emergency-diesel-generator-default">
+              <h5>Maximo Default</h5>
+            </div>
+          </div>
+          <div class="row" id="emergency-diesel-generator-default-show">
+            <div class="col-sm-3">
+              <!-- Column 1 -->
+              <ul>
+                <li>Asset Number</li>
+                <li>Facilities Services Asset Item ID</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 2 -->
+              <ul>
+                <li><strong>Location</strong>
+                  <ul>
+                    <li>Building</li>
+                    <li>Floor</li>
+                    <li>Room</li>
+                    <li>Reference Location</li>
+                    <li>Area of Service</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 3 -->
+              <ul>
+                <li>Manufacturer</li>
+                <li>Model</li>
+                <li>Serial Number</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 4 -->
+              <ul>
+                <li>Installation Date</li>
+                <li>Purchase Price</li>
+                <li>Replacement Cost</li>
+                <li>Warranty Date</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 mxSpecific">
+              <h5>Equipment Specific</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              <!-- Column 1 -->
+              <ul>
+                <li><strong>Generator</strong>
+                  <ul>
+                    <li>Spec No.</li>
+                    <li>RPM</li>
+                    <li>Amps</li>
+                    <li>Volts</li>
+                    <li>Hertz</li>
+                    <li>Phase</li>
+                    <li>KVA</li>
+                    <li>KW</li>
+                    <li>Power Factor</li>
+                    <li>Battery</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 2 -->
+              <ul>
+                <li><strong>Engine</strong>
+                  <ul>
+                    <li>Manufacturer</li>
+                    <li>Model</li>
+                    <li>Engine No.</li>
+                    <li>Serial No.</li>
+                    <li>Spec No.</li>
+                    <li>Horsepower</li>
+                    <li>Air Cleaner</li>
+                    <li>Coupling</li>
+                    <li>Fuel Filter Element</li>
+                    <li>Fan Belt</li>
+                    <li>Fuel Pump Assembly</li>
+                    <li>Water Pump Belt</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 3 -->
+              <ul>
+                <li><strong>Battery</strong>
+                  <ul>
+                    <li>Manufacturer</li>
+                    <li>Type</li>
+                    <li>Voltage</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 4 -->
+              <ul>
+                <li><strong>Fuel</strong>
+                  <ul>
+                    <li>Day Tank Capacity</li>
+                    <li>Rated Fuel Consumption @ 100%</li>
+                  </ul>
+                </li>
+                <li><strong>Energy Source</strong>
+                  <ul>
+                    <li>Panel No.</li>
+                    <li>Breaker No.</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- / Equipment Attributes -->
+    </div>  <!-- / EMERGENCY DIESEL GENERATOR -->
+
+
+    <!-- EMERGENCY LIGHTING BATTERY -->
+    <div class="row">
+      <div class="col-sm-3">
+        <a id="emergency-lighting-battery">
+          <h4><span style="color:red;">*</span> Emergency Lighting -- Battery</h4>
+        </a>
+      </div>
+      <!-- Equipment Attributes -->
+      <div id="emergency-lighting-battery-attr">
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-12 mxDefault" id="emergency-lighting-battery-default">
+              <h5>Maximo Default</h5>
+            </div>
+          </div>
+          <div class="row" id="emergency-lighting-battery-default-show">
+            <div class="col-sm-3">
+              <!-- Column 1 -->
+              <ul>
+                <li>Asset Number</li>
+                <li>Facilities Services Asset Item ID</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 2 -->
+              <ul>
+                <li><strong>Location</strong>
+                  <ul>
+                    <li>Building</li>
+                    <li>Floor</li>
+                    <li>Room</li>
+                    <li>Reference Location</li>
+                    <li>Area of Service</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 3 -->
+              <ul>
+                <li>Manufacturer</li>
+                <li>Model</li>
+                <li>Serial Number</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 4 -->
+              <ul>
+                <li>Installation Date</li>
+                <li>Purchase Price</li>
+                <li>Replacement Cost</li>
+                <li>Warranty Date</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 mxSpecific">
+              <h5>Equipment Specific</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              <!-- Column 1 -->
+              <ul>
+                <li><strong>Energy Source</strong>
+                  <ul>
+                    <li>Panel No.</li>
+                    <li>Breaker No.</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 2 -->
+              <ul>
+                
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 3 -->
+              <ul>
+                
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 4 -->
+              <ul>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- / Equipment Attributes -->
+    </div>  <!-- / EMERGENCY LIGHTING BATTERY -->
+
+ 
+    <!-- EMERGENCY LIGHTING EDG -->
+    <div class="row">
+      <div class="col-sm-3">
+        <a id="emergency-lighting-edg">
+          <h4><span style="color:red;">*</span> Emergency Lighting -- EDG</h4>
+        </a>
+      </div>
+      <!-- Equipment Attributes -->
+      <div id="emergency-lighting-edg-attr">
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-12 mxDefault" id="emergency-lighting-edg-default">
+              <h5>Maximo Default</h5>
+            </div>
+          </div>
+          <div class="row" id="emergency-lighting-edg-default-show">
+            <div class="col-sm-3">
+              <!-- Column 1 -->
+              <ul>
+                <li>Asset Number</li>
+                <li>Facilities Services Asset Item ID</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 2 -->
+              <ul>
+                <li><strong>Location</strong>
+                  <ul>
+                    <li>Building</li>
+                    <li>Floor</li>
+                    <li>Room</li>
+                    <li>Reference Location</li>
+                    <li>Area of Service</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 3 -->
+              <ul>
+                <li>Manufacturer</li>
+                <li>Model</li>
+                <li>Serial Number</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 4 -->
+              <ul>
+                <li>Installation Date</li>
+                <li>Purchase Price</li>
+                <li>Replacement Cost</li>
+                <li>Warranty Date</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 mxSpecific">
+              <h5>Equipment Specific</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              <!-- Column 1 -->
+              <ul>
+                <li><strong>Energy Source</strong>
+                  <ul>
+                    <li>Panel No.</li>
+                    <li>Breaker No.</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 2 -->
+              <ul>
+                
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 3 -->
+              <ul>
+                
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 4 -->
+              <ul>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- / Equipment Attributes -->
+    </div>  <!-- / EMERGENCY LIGHTING EDG -->
+
+
+    <!-- ENVIRONMENTAL CONTROL CHAMBER -->
+    <div class="row">
+      <div class="col-sm-4">
+        <a id="environmental-control-chamber">
+          <h4><span style="color:red;">*</span> Environmental Control Chamber</h4>
+        </a>
+      </div>
+      <!-- Equipment Attributes -->
+      <div id="environmental-control-chamber-attr">
+        <div class="col-sm-8">
+          <div class="row">
+            <div class="col-sm-12 mxDefault" id="environmental-control-chamber-default">
+              <h5>Maximo Default</h5>
+            </div>
+          </div>
+          <div class="row" id="environmental-control-chamber-default-show">
+            <div class="col-sm-3">
+              <!-- Column 1 -->
+              <ul>
+                <li>Asset Number</li>
+                <li>Facilities Services Asset Item ID</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 2 -->
+              <ul>
+                <li><strong>Location</strong>
+                  <ul>
+                    <li>Building</li>
+                    <li>Floor</li>
+                    <li>Room</li>
+                    <li>Reference Location</li>
+                    <li>Area of Service</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 3 -->
+              <ul>
+                <li>Manufacturer</li>
+                <li>Model</li>
+                <li>Serial Number</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 4 -->
+              <ul>
+                <li>Installation Date</li>
+                <li>Purchase Price</li>
+                <li>Replacement Cost</li>
+                <li>Warranty Date</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 mxSpecific">
+              <h5>Equipment Specific</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              <!-- Column 1 -->
+              <ul>
+                <li><strong>Compressor</strong>
+                  <ul>
+                    <li>Manufacturer</li>
+                    <li>Model</li>
+                    <li>Rated Loaded Amps</li>
+                    <li>Loced Rotor Amps</li>
+                  </ul>
+                </li>
+                <li><strong>Design PSI</strong>
+                  <ul>
+                    <li>High (psig)</li>
+                    <li>Low (psig)</li>
+                  </ul>
+                </li>
+                <li><strong>Adjustable Temp</strong></li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 2 -->
+              <ul>
+                <li><strong>Condensing Unit</strong>
+                  <ul>
+                    <li><strong>Refrigeration</strong>
+                      <ul>
+                         <li>Capacity (W)</li>
+                         <li>Evaporating Temp</li>
+                      </ul>
+                    <li><strong>Fan Motor</strong>
+                      <ul>
+                        <li>Quantity</li>
+                        <li>Horsepower</li>
+                        <li>Full Load Amp</li>
+                        <li>Volt</li>
+                        <li>Phase</li>
+                        <li>Hertz</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 3 -->
+              <ul>
+                <li><strong>Refrigerant</strong>
+                  <ul>
+                    <li>Refrigerant</li>
+                    <li>Charge (lbs)</li>
+                  </ul>
+                </li>
+                <li><strong>Evaporator</strong>
+                  <ul>
+                    <li>Fan Motor Max Amps</li>
+                  </ul>
+                </li>
+                <li><strong>Min Circulation Ampacity</strong></li>
+                <li><strong>Max Overcurrent Protection Device Amps</strong></li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 4 -->
+              <ul>
+                <li><strong>Crankcase Heater Watts</strong></li>
+                <li><strong>Defrost Heater Max Amps</strong></li>
+                <li><strong>Energy Source</strong>
+                  <ul>
+                    <li>Panel No.</li>
+                    <li>Breaker No.</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- / Equipment Attributes -->
+    </div>  <!-- / EMERGENCY LIGHTING EDG -->
 
 
 

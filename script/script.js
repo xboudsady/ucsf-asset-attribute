@@ -119,6 +119,27 @@ $(document).ready(function () {
   $('#domestic-hot-water-pump').click(function () {
     $('#domestic-hot-water-pump-attr').slideToggle("slow");
   });
+  $('#dust-collector').click(function () {
+    $('#dust-collector-attr').slideToggle("slow");
+  });
+  $('#electrical-sub-panel').click(function () {
+    $('#electrical-sub-panel-attr').slideToggle("slow");
+  });
+  $('#elevator').click(function () {
+    $('#elevator-attr').slideToggle("slow");
+  });
+  $('#emergency-diesel-generator').click(function () {
+    $('#emergency-diesel-generator-attr').slideToggle("slow");
+  });
+  $('#emergency-lighting-battery').click(function () {
+    $('#emergency-lighting-battery-attr').slideToggle("slow");
+  });
+  $('#emergency-lighting-edg').click(function () {
+    $('#emergency-lighting-edg-attr').slideToggle("slow");
+  });
+  $('#environmental-control-chamber').click(function () {
+    $('#environmental-control-chamber-attr').slideToggle("slow");
+  });
 });
 
 
@@ -164,5 +185,107 @@ $(document).ready(function() {
   });
   $('#chill-water-pump-default').click(function () {
     $('#chill-water-pump-default-show').slideToggle("slow");
+  });
+  $('#chiller-air-cooled-default').click(function () {
+    $('#chiller-air-cooled-default-show').slideToggle("slow");
+  });
+  $('#chiller-water-cooled-default').click(function () {
+    $('#chiller-water-cooled-default-show').slideToggle("slow");
+  });
+  $('#chiller-absorption-default').click(function () {
+    $('#chiller-absorption-default-show').slideToggle("slow");
+  });
+  $('#clocks-automated-default').click(function () {
+    $('#clocks-automated-default-show').slideToggle("slow");
+  });
+  $('#condensate-return-pump-default').click(function () {
+    $('#condensate-return-pump-default-show').slideToggle("slow");
+  });
+  $('#condensate-tank-default').click(function () {
+    $('#condensate-tank-default-show').slideToggle("slow");
+  });
+  $('#condensate-drain-pump-default').click(function () {
+    $('#condensate-drain-pump-default-show').slideToggle("slow");
+  });
+  $('#condenser-water-pump-default').click(function () {
+    $('#condenser-water-pump-default-show').slideToggle("slow");
+  });
+  $('#condensing-unit-default').click(function () {
+    $('#condensing-unit-default-show').slideToggle("slow");
+  });
+  $('#conductivity-controller-default').click(function () {
+    $('#conductivity-controller-default-show').slideToggle("slow");
+  });
+  $('#control-air-compressor-default').click(function () {
+    $('#control-air-compressor-default-show').slideToggle("slow");
+  });
+  $('#control-air-dryer-default').click(function () {
+    $('#control-air-dryer-default-show').slideToggle("slow");
+  });
+  $('#control-damper-default').click(function () {
+    $('#control-damper-default-show').slideToggle("slow");
+  });
+  $('#control-panel-default').click(function () {
+    $('#control-panel-default-show').slideToggle("slow");
+  });
+  $('#cooling-coils-default').click(function () {
+    $('#cooling-coils-default-show').slideToggle("slow");
+  });
+  $('#cooling-tower-default').click(function () {
+    $('#cooling-tower-default-show').slideToggle("slow");
+  });
+  $('#cooling-tower-filter-default').click(function () {
+    $('#cooling-tower-filter-default-show').slideToggle("slow");
+  });
+  $('#cooling-tower-filter-pump-default').click(function () {
+    $('#cooling-tower-filter-pump-default-show').slideToggle("slow");
+  });
+  $('#day-tank-default').click(function () {
+    $('#day-tank-default-show').slideToggle("slow");
+  });
+  $('#deaerator-default').click(function () {
+    $('#deaerator-default-show').slideToggle("slow");
+  });
+  $('#deaerator-pump-default').click(function () {
+    $('#deaerator-pump-default-show').slideToggle("slow");
+  });
+  $('#distilled-water-service-pump-default').click(function () {
+    $('#distilled-water-service-pump-default-show').slideToggle("slow");
+  });
+  $('#domestic-cold-water-booster-system-default').click(function () {
+    $('#domestic-cold-water-booster-system-default-show').slideToggle("slow");
+  });
+  $('#domestic-cold-water-pump-default').click(function () {
+    $('#domestic-cold-water-pump-default-show').slideToggle("slow");
+  });
+  $('#domestic-hot-water-boiler-default').click(function () {
+    $('#domestic-hot-water-boiler-default-show').slideToggle("slow");
+  });
+  $('#domestic-hot-water-heater-default').click(function () {
+    $('#domestic-hot-water-heater-default-show').slideToggle("slow");
+  });
+  $('#domestic-hot-water-pump-default').click(function () {
+    $('#domestic-hot-water-pump-default-show').slideToggle("slow");
+  });
+  $('#dust-collector-default').click(function () {
+    $('#dust-collector-default-show').slideToggle("slow");
+  });
+  $('#electrical-sub-panel-default').click(function () {
+    $('#electrical-sub-panel-default-show').slideToggle("slow");
+  });
+  $('#elevator-default').click(function () {
+    $('#elevator-default-show').slideToggle("slow");
+  });
+  $('#emergency-diesel-generator-default').click(function () {
+    $('#emergency-diesel-generator-default-show').slideToggle("slow");
+  });
+  $('#emergency-lighting-battery-default').click(function () {
+    $('#emergency-lighting-battery-default-show').slideToggle("slow");
+  });
+  $('#emergency-lighting-edg-default').click(function () {
+    $('#emergency-lighting-edg-default-show').slideToggle("slow");
+  });
+  $('#environmental-control-chamber-default').click(function () {
+    $('#environmental-control-chamber-default-show').slideToggle("slow");
   });
 });

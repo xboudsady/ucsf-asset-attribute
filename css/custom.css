@@ -169,7 +169,14 @@ a:focus {
 #domestic-cold-water-pump-attr,
 #domestic-hot-water-boiler-attr,
 #domestic-hot-water-heater-attr,
-#domestic-hot-water-pump-attr {
+#domestic-hot-water-pump-attr,
+#dust-collector-attr,
+#electrical-sub-panel-attr,
+#elevator-attr,
+#emergency-diesel-generator-attr,
+#emergency-lighting-battery-attr,
+#emergency-lighting-edg-attr,
+#environmental-control-chamber-attr {
   display: none;
 }
 
@@ -187,6 +194,40 @@ a:focus {
 #backflow-prevention-device-default-show,
 #boiler-feedwater-pump-default-show,
 #chemical-injection-pump-default-show,
-#chill-water-pump-default-show {
+#chill-water-pump-default-show,
+#chiller-air-cooled-default-show,
+#chiller-water-cooled-default-show,
+#chiller-absorption-default-show,
+#clocks-automated-default-show,
+#condensate-return-pump-default-show,
+#condensate-tank-default-show,
+#condensate-drain-pump-default-show,
+#condenser-water-pump-default-show,
+#condensing-unit-default-show,
+#conductivity-controller-default-show,
+#control-air-compressor-default-show,
+#control-air-dryer-default-show,
+#control-damper-default-show,
+#control-panel-default-show,
+#cooling-coils-default-show,
+#cooling-tower-default-show,
+#cooling-tower-filter-default-show,
+#cooling-tower-filter-pump-default-show,
+#day-tank-default-show,
+#deaerator-default-show,
+#deaerator-pump-default-show,
+#distilled-water-service-pump-default-show,
+#domestic-cold-water-booster-system-default-show,
+#domestic-cold-water-pump-default-show,
+#domestic-hot-water-boiler-default-show,
+#domestic-hot-water-heater-default-show,
+#domestic-hot-water-pump-default-show,
+#dust-collector-default-show,
+#electrical-sub-panel-default-show,
+#elevator-default-show,
+#emergency-diesel-generator-default-show,
+#emergency-lighting-battery-default-show,
+#emergency-lighting-edg-default-show,
+#environmental-control-chamber-default-show {
   display: none;
 }
