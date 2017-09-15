@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta http-equiv="x-ua-compatiblez" content="ie=edge">
   <title>UCSF FS Asset Attribute Data</title>
   <!-- bootstrap css -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
@@ -3147,7 +3147,7 @@
     <div class="row">
       <div class="col-sm-3">
         <a id="conductivity-controller">
-          <h4><span style="color:red;">*</span> Conductivity -- Controller</h4>
+          <h4>Conductivity -- Controller</h4>
         </a>
       </div>
       <!-- Equipment Attributes -->
@@ -3207,7 +3207,7 @@
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
-                
+                <li>Sensor Part No.</li>
               </ul>
             </div>
             <div class="col-sm-3">
@@ -3244,7 +3244,7 @@
     <div class="row">
       <div class="col-sm-3">
         <a id="control-air-compressor">
-          <h4><span style="color:red;">*</span> Control -- Air Compressor</h4>
+          <h4>Control -- Air Compressor</h4>
         </a>
       </div>
       <!-- Equipment Attributes -->
@@ -3319,6 +3319,28 @@
                   </ul>
                 </li>
               </ul>
+              <ul>
+                <li><strong>Filter</strong>
+                  <ul>
+                    <li>Type</li>
+                    <li>Quantity</li>
+                  </ul>
+                </li>
+              </ul>
+              <ul>
+                <li><strong>Portable</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Yes</li>
+                    <li>No</li>
+                  </ul>
+                </li>
+                <li><strong>Oil</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Free</li>
+                    <li>Less</li>
+                  </ul>
+                </li>
+              </ul>
             </div>
             <div class="col-sm-3">
               <!-- Column 2 -->
@@ -3346,10 +3368,25 @@
                     <li>Quantity</li>
                   </ul>
                 </li>
+                <li><strong>Oil Capacity</strong></li>
+                <li><strong>Pressure Safety Valve</strong>
+                  <ul>
+                    <li>Manufacturer</li>
+                    <li>Model</li>
+                    <li>Serial</li>
+                  </ul>
+                </li>
               </ul>
             </div>
             <div class="col-sm-3">
               <!-- Column 3 -->
+              <ul>
+                <li><strong>Motor Drive Type</strong> <span class="text-hint">(Selector)</span></li>
+                <ul>
+                  <li>Direct Drive</li>
+                  <li>Belt Driven</li>
+                </ul>
+              </ul>
               <ul>
                 <li><strong>Motor</strong>
                   <ul>
@@ -3378,16 +3415,15 @@
             <div class="col-sm-3">
               <!-- Column 4 -->
               <ul>
+                <li><strong>Automatic Blowdown Valve Part No.</strong></li>
                 <li><strong>Linestarter</strong>
                   <ul>
                     <li>Manufacturer</li>
                     <li>Model</li>
                     <li>Serial</li>
-                    <li>CAT No.</li>
                     <li>Code</li>
                     <li>Max Amps</li>
                     <li>Style</li>
-                    <li>Control Voltage</li>
                     <li>Volt</li>
                     <li>NEMA Size</li>
                   </ul>
@@ -3522,7 +3558,7 @@
     <div class="row">
       <div class="col-sm-3">
         <a id="control-damper">
-          <h4><span style="color:red;">*</span> Control -- Damper</h4>
+          <h4>Control -- Damper</h4>
         </a>
       </div>
       <!-- Equipment Attributes -->
@@ -3589,6 +3625,19 @@
                     <li>Opposed</li>
                   </ul>
                 </li>
+                <li><strong>Actuator</strong>
+                  <ul>
+                    <li>Manufacturer</li>
+                    <li>Model</li>
+                    <li>Type <span class="text-hint">(Selector)</span>
+                      <ul>
+                        <li>Electrical</li>
+                        <li>Barometric</li>
+                        <li>Pneumatic</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
               </ul>
             </div>
             <div class="col-sm-3">
@@ -3600,6 +3649,8 @@
                     <li>Full Closed</li>
                   </ul>
                 </li>
+                <li><strong>Bushings</strong></li>
+                <li><strong>Bearings</strong></li>
               </ul>
             </div>
             <div class="col-sm-3">
@@ -3611,11 +3662,19 @@
                     <li>No</li>
                   </ul>
                 </li>
+                <li><strong>Material Type</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Stainless Steel</li>
+                    <li>Steel</li>
+                    <li>Aluminum</li>
+                  </ul>
+                </li>
               </ul>
             </div>
             <div class="col-sm-3">
               <!-- Column 4 -->
               <ul>
+                <li><strong>Damper Size</strong></li>
                 <li><strong>Energy Source</strong>
                   <ul>
                     <li>Panel No.</li>
@@ -3635,7 +3694,7 @@
     <div class="row">
       <div class="col-sm-3">
         <a id="control-panel">
-          <h4><span style="color:red;">*</span> Control Panel</h4>
+          <h4>Control Panel</h4>
         </a>
       </div>
       <!-- Equipment Attributes -->
@@ -3732,7 +3791,7 @@
     <div class="row">
       <div class="col-sm-3">
         <a id="cooling-coils">
-          <h4><span style="color:red;">*</span> Cooling Coils</h4>
+          <h4>Cooling Coils</h4>
         </a>
       </div>
       <!-- Equipment Attributes -->
@@ -3792,7 +3851,7 @@
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
-                <li><strong>Coil</strong>
+                <li><strong>Coils</strong>
                   <ul>
                     <li>Size</li>
                     <li>No. per Bank</li>
@@ -3801,6 +3860,13 @@
                 <li><strong>CFM per Bank</strong></li>
                 <li><strong>Total Area (Sq/Ft)</strong></li>
                 <li><strong>Face Velocity (FPM)</strong></li>
+                <li><strong>Materials</strong>
+                  <ul>
+                    <li>Head</li>
+                    <li>Tube</li>
+                    <li>Fin</li>
+                  </ul>
+                </li>
               </ul>
             </div>
             <div class="col-sm-3">
@@ -3809,7 +3875,19 @@
                 <li><strong>Rows-Fins / Inch</strong></li>
                 <li><strong>Total MBH (Thousand BTU's/Hr)</strong></li>
                 <li><strong>Flow Rate - Total GPM</strong></li>
-                <li><strong>Control Valve Type</strong></li>
+                <li><strong>Control Valve</strong>
+                  <ul>
+                    <li>Type</li>
+                    <li>Size</li>
+                    <li>CV Rating</li>
+                  </ul>
+                </li>
+                <li><strong>Size</strong>
+                  <ul>
+                    <li>Length</li>
+                    <li>Width</li>
+                  </ul>
+                </li>
               </ul>
             </div>
             <div class="col-sm-3">
@@ -3838,6 +3916,14 @@
             <div class="col-sm-3">
               <!-- Column 4 -->
               <ul>
+                <li><strong>Connection Type</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Brazed</li>
+                    <li>Flanged</li>
+                    <li>Screwed</li>
+                    <li>Victalic</li>
+                  </ul>
+                </li>
                 <li><strong>Energy Source</strong>
                   <ul>
                     <li>Panel No.</li>
@@ -3857,7 +3943,7 @@
     <div class="row">
       <div class="col-sm-3">
         <a id="cooling-tower">
-          <h4><span style="color:red;">*</span> Cooling Tower</h4>
+          <h4>Cooling Tower</h4>
         </a>
       </div>
       <!-- Equipment Attributes -->
@@ -3920,7 +4006,8 @@
                 <li><strong>Cooling Tower</strong>
                   <ul>
                     <li>Rating</li>
-                    <li>Flow Rate</li>
+                    <li>Flow Rate (Cubic Ft./min)</li>
+                    <li>Shaft</li>
                     <li><strong>Design Water</strong>
                       <ul>
                         <li>Inlet Temp</li>
@@ -3941,7 +4028,12 @@
                         <li>Bushing</li>
                       </ul>
                     </li>
-                    <li>Shaft</li>
+                  </ul>
+                </li>
+                <li><strong>V-Belt</strong>
+                  <ul>
+                    <li>Size</li>
+                    <li>Quantity</li>
                   </ul>
                 </li>
               </ul>
@@ -3970,15 +4062,55 @@
                     <li>Bearing 2</li>
                   </ul>
                 </li>
-              </ul>
+                <li><strong>Spray Nozzle</strong>
+                  <ul>
+                    <li>Size</li>
+                    <li>Quantity</li>
+                  </ul>
+                </li>
+              </ul> 
             </div>
             <div class="col-sm-3">
               <!-- Column 3 -->
               <ul>
-                <li><strong>V-Belt</strong>
+                
+                <li><strong>Valve Type</strong> <span class="text-hint">(Selector)</span>
                   <ul>
-                    <li>Size</li>
-                    <li>Quantity</li>
+                    <li>Pneumatic</li>
+                    <li>Electric</li>
+                  </ul>
+                </li>
+                <li><strong>Pipe Size</strong>
+                  <ul>
+                    <li>Suction</li>
+                    <li>Makeup</li>
+                    <li>Return</li>
+                  </ul>
+                </li>
+                <li><strong>Gearbox</strong>
+                  <ul>
+                    <li>Manufacturer</li>
+                    <li>Model</li>
+                    <li>Oil Type</li>
+                    <li>Drive Ratio</li>
+                    <li>Shaft Size
+                      <ul>
+                        <li>Input</li>
+                        <li>Output</li>
+                      </ul>
+                    </li>
+                    <li>Coupling
+                      <ul>
+                        <li>Input</li>
+                        <li>Output</li>
+                      </ul>
+                    </li>
+                    <li>Bushing
+                      <ul>
+                        <li>Input</li>
+                        <li>Output</li>
+                      </ul>
+                    </li>
                   </ul>
                 </li>
               </ul>
@@ -3986,6 +4118,14 @@
             <div class="col-sm-3">
               <!-- Column 4 -->
               <ul>
+                <li><strong>Cell</strong>
+                  <ul>
+                    <li>Manufacturer</li>
+                    <li>Model</li>
+                    <li>Size</li>
+                    <li>Fill (Materials)</li>
+                  </ul>
+                </li>
                 <li><strong>Linestarter</strong>
                   <ul>
                     <li>Manufacturer</li>
@@ -4110,7 +4250,7 @@
     <div class="row">
       <div class="col-sm-3">
         <a id="cooling-tower-filter-pump">
-          <h4><span style="color:red;">*</span> Cooling Tower -- Filter Pump</h4>
+          <h4>Cooling Tower -- Filter Pump</h4>
         </a>
       </div>
       <!-- Equipment Attributes -->
@@ -4209,8 +4349,28 @@
                 </li>
                 <li><strong>Energy Source</strong>
                   <ul>
+                    <li>MCC Location</li>
                     <li>Panel No.</li>
                     <li>Breaker No.</li>
+                  </ul>
+                </li>
+                <li><strong>Check Valve</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Yes</li>
+                    <li>No</li>
+                  </ul>
+                </li>
+                <li><strong>System</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Single</li>
+                    <li>Series</li>
+                  </ul>
+                </li>
+                <li><strong>Disconnect</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Local</li>
+                    <li>VFD</li>
+                    <li>Local &amp; VFD</li>
                   </ul>
                 </li>
               </ul>
@@ -4246,6 +4406,12 @@
             <div class="col-sm-3">
               <!-- Column 4 -->
               <ul>
+                <li><strong>Strainer</strong>
+                  <ul>
+                    <li>Manufacturer</li>
+                    <li>Model</li>
+                  </ul>
+                </li>
                 <li><strong>Line Starter</strong>
                   <ul>
                     <li>Manufacturer</li>
@@ -4272,7 +4438,7 @@
     <div class="row">
       <div class="col-sm-3">
         <a id="day-tank">
-          <h4><span style="color:red;">*</span> Day Tank</h4>
+          <h4>Day Tank</h4>
         </a>
       </div>
       <!-- Equipment Attributes -->
@@ -4333,24 +4499,42 @@
               <!-- Column 1 -->
               <ul>
                 <li><strong>Capacity (Gallons)</strong></li>
+                <li><strong>Lift Pump</strong>
+                  <ul>
+                    <li>Manufacturer</li>
+                    <li>Model</li>
+                    <li>Serial</li>
+                  </ul>
+                </li>
               </ul>
             </div>
             <div class="col-sm-3">
               <!-- Column 2 -->
               <ul>
                 <li><strong>UL Listing</strong></li>
+                <li><strong>Pipe Size</strong></li>
               </ul>
             </div>
             <div class="col-sm-3">
               <!-- Column 3 -->
               <ul>
-                
+                <li><strong>Hi / Low Alarm</strong>
+                  <ul>
+                    <li>Manufacturer</li>
+                    <li>Model</li>
+                  </ul>
+                </li>
               </ul>
             </div>
             <div class="col-sm-3">
               <!-- Column 4 -->
               <ul>
-                
+                <li><strong>Monitoring Station</strong>
+                  <ul>
+                    <li>Manufacturer</li>
+                    <li>Model</li>
+                  </ul>
+                </li>
               </ul>
             </div>
           </div>
@@ -4364,7 +4548,7 @@
     <div class="row">
       <div class="col-sm-3">
         <a id="deaerator">
-          <h4><span style="color:red;">*</span> Deaerator</h4>
+          <h4>Deaerator</h4>
         </a>
       </div>
       <!-- Equipment Attributes -->
@@ -4435,7 +4619,6 @@
             <div class="col-sm-3">
               <!-- Column 2 -->
               <ul>
-                <li><strong>Max Load (lbs/hr)</strong></li>
                 <li><strong>Horsepower</strong></li>
                 <li><strong>Steam PSIG</strong></li>
               </ul>
@@ -4443,12 +4626,7 @@
             <div class="col-sm-3">
               <!-- Column 3 -->
               <ul>
-                <li><strong>Capacity to Overflow</strong>
-                  <ul>
-                    <li>Gallons</li>
-                    <li>Minutes</li>
-                  </ul>
-                </li>
+                <li><strong>Capacity (lbs/hr)</strong></li>
               </ul>
             </div>
             <div class="col-sm-3">
@@ -4631,11 +4809,11 @@
     </div>  <!-- / DEAERATOR PUMP -->
 
 
-    <!-- DISTILLED WATER SERVICE PUMP -->
+    <!-- DISTILLED WATER PUMP -->
     <div class="row">
       <div class="col-sm-4">
         <a id="distilled-water-service-pump">
-          <h4><span style="color:red;">*</span> Distilled Water Service - Pump</h4>
+          <h4>Distilled Water - Pump</h4>
         </a>
       </div>
       <!-- Equipment Attributes -->
@@ -4734,8 +4912,28 @@
                 </li>
                 <li><strong>Energy Source</strong>
                   <ul>
+                    <li>MCC No.</li>
                     <li>Panel No.</li>
                     <li>Breaker No.</li>
+                  </ul>
+                </li>
+                <li><strong>Check Valve</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Yes</li>
+                    <li>No</li>
+                  </ul>
+                </li>
+                <li><strong>System</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Single</li>
+                    <li>Series</li>
+                  </ul>
+                </li>
+                <li><strong>Disconnect</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Local</li>
+                    <li>VFD</li>
+                    <li>Local &amp; VFD</li>
                   </ul>
                 </li>
               </ul>
@@ -4771,6 +4969,12 @@
             <div class="col-sm-3">
               <!-- Column 4 -->
               <ul>
+                <li><strong>Strainer</strong>
+                  <ul>
+                    <li>Manufacturer</li>
+                    <li>Model</li>
+                  </ul>
+                </li>
                 <li><strong>Line Starter</strong>
                   <ul>
                     <li>Manufacturer</li>
@@ -4790,7 +4994,7 @@
         </div>
       </div>
       <!-- / Equipment Attributes -->
-    </div>  <!-- / DISTILLED WATER SERVICE PUMP -->
+    </div>  <!-- / DISTILLED WATER PUMP -->
 
 
     <!-- DOMESTIC COLD WATER BOOSTER SYSTEM -->
@@ -4946,7 +5150,7 @@
     <div class="row">
       <div class="col-sm-4">
         <a id="domestic-cold-water-pump">
-          <h4><span style="color:red;">*</span> Domestic Cold Water - Pump</h4>
+          <h4>Domestic Cold Water - Pump</h4>
         </a>
       </div>
       <!-- Equipment Attributes -->
@@ -5043,8 +5247,28 @@
                 </li>
                 <li><strong>Energy Source</strong>
                   <ul>
+                    <li>MCC No.</li>
                     <li>Panel No.</li>
                     <li>Breaker No.</li>
+                  </ul>
+                </li>
+                <li><strong>Check Valve</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Yes</li>
+                    <li>No</li>
+                  </ul>
+                </li>
+                <li><strong>System</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Single</li>
+                    <li>Series</li>
+                  </ul>
+                </li>
+                <li><strong>Disconnect</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Local</li>
+                    <li>VFD</li>
+                    <li>Local &amp; VFD</li>
                   </ul>
                 </li>
               </ul>
@@ -5054,14 +5278,25 @@
               <ul>
                 <li><strong>Motor</strong>
                   <ul>
+                    <li>Manufacturer</li>
+                    <li>Model No.</li>
+                    <li>Serial</li>
+                    <li>Type</li>
+                    <li>Service Factor</li>
                     <li>RPM</li>
+                    <li>Hertz</li>
                     <li>Phase</li>
+                    <li>Horsepower</li>
                     <li>Amps</li>
                     <li>Volts</li>
                     <li>Bearing 1</li>
+                    <li>Bearing 2</li>
                     <li>Bushing</li>
-                    <li>Sheave</li>
-                    <li>Shaft</li>
+                    <li>Design</li>
+                    <li>Duty</li>
+                    <li>Enclosure</li>
+                    <li>Frame</li>
+                    <li>Insulation Class</li>
                   </ul>
                 </li>
               </ul>
@@ -5069,6 +5304,12 @@
             <div class="col-sm-3">
               <!-- Column 4 -->
               <ul>
+                <li><strong>Strainer</strong>
+                  <ul>
+                    <li>Manufacturer</li>
+                    <li>Model</li>
+                  </ul>
+                </li>
                 <li><strong>Line Starter</strong>
                   <ul>
                     <li>Manufacturer</li>
@@ -6400,7 +6641,7 @@
         </div>
       </div>
       <!-- / Equipment Attributes -->
-    </div>  <!-- / EMERGENCY LIGHTING EDG -->
+    </div>  <!-- / ENVIRONMENTAL CONTROL CHAMBER -->
 
 
 
