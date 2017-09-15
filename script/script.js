@@ -140,6 +140,12 @@ $(document).ready(function () {
   $('#environmental-control-chamber').click(function () {
     $('#environmental-control-chamber-attr').slideToggle("slow");
   });
+  $('#exhaust-fan').click(function () {
+    $('#exhaust-fan-attr').slideToggle("slow");
+  });
+  $('#exit-signs').click(function () {
+    $('#exit-signs-attr').slideToggle("slow");
+  });
 });
 
 
@@ -287,5 +293,11 @@ $(document).ready(function() {
   });
   $('#environmental-control-chamber-default').click(function () {
     $('#environmental-control-chamber-default-show').slideToggle("slow");
+  });
+  $('#exhaust-fan-default').click(function () {
+    $('#exhaust-fan-default-show').slideToggle("slow");
+  });
+  $('#exit-signs-default').click(function () {
+    $('#exit-signs-default-show').slideToggle("slow");
   });
 });

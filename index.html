@@ -5509,7 +5509,7 @@
     <div class="row">
       <div class="col-sm-3">
         <a id="domestic-hot-water-heater">
-          <h4><span style="color:red;">*</span> Domestic Hot Water - Heater</h4>
+          <h4>Domestic Hot Water - Heater</h4>
         </a>
       </div>
       <!-- Equipment Attributes -->
@@ -5569,10 +5569,27 @@
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
+                <li><strong>BTU Rating per Hours (lbs)</strong></li>
                 <li><strong>Fuel Type</strong> <span class="text-hint">(Selector)</span>
                   <ul>
                     <li>Gas</li>
                     <li>Electric</li>
+                  </ul>
+                </li>
+                <li><strong>PSI Temp Ratomg</strong>
+                  <ul>
+                    <li>Relief Valve
+                      <ul>
+                        <li>Inlet Size</li>
+                        <li>Outlet Size</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li><strong>Recirculating Pump</strong>
+                  <ul>
+                    <li>Manufacturer</li>
+                    <li>Model</li>
                   </ul>
                 </li>
               </ul>
@@ -5582,11 +5599,6 @@
               <ul>
                 <li><strong>Capacity (gal)</strong></li>
                 <li><strong>GPM Rec @ 60&deg;F</strong></li>
-              </ul>
-            </div>
-            <div class="col-sm-3">
-              <!-- Column 3 -->
-              <ul>
                 <li><strong>Motor</strong>
                   <ul>
                     <li>Volts</li>
@@ -5594,11 +5606,61 @@
                     <li>Apms</li>
                   </ul>
                 </li>
+                <li><strong>Water Pipe Size</strong>
+                  <ul>
+                    <li>Inlet</li>
+                    <li>Outlet</li>
+                  </ul>
+                </li>
+                <li><strong>Flue Oulet Diameter</strong></li>
+                <li><strong>Air Intake Diameter</strong></li>
+                <li><strong>Gas Inlet Diameter</strong></li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 3 -->
+              <ul>
+                <li><strong>Force Draft</strong>
+                  <ul>
+                    <li>Fan
+                      <ul>
+                        <li>Manufacturer</li>
+                        <li>Model</li>
+                      </ul>
+                    </li>
+                    <li>Motor
+                      <ul>
+                        <li>Manfacturer</li>
+                        <li>Model</li>
+                      </ul>
+                    </li>
+                    <li>Control Panel
+                      <ul>
+                        <li>Manufacturer</li>
+                        <li>Model</li>
+                      </ul>
+                    </li>
+                    <li>Heater
+                      <ul>
+                        <li>Manufacturer</li>
+                        <li>Model</li>
+                        <li>Size</li>
+                        <li>Capacity</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
               </ul>
             </div>
             <div class="col-sm-3">
               <!-- Column 4 -->
               <ul>
+                <li><strong>Gas Regulator Valve</strong>
+                  <ul>
+                    <li>Manufacturer</li>
+                    <li>Model</li>
+                  </ul>
+                </li>
                 <li><strong>Energy Source</strong>
                   <ul>
                     <li>Panel No.</li>
@@ -5618,7 +5680,7 @@
     <div class="row">
       <div class="col-sm-3">
         <a id="domestic-hot-water-pump">
-          <h4><span style="color:red;">*</span> Domestic Hot Water - Pump</h4>
+          <h4>Domestic Hot Water - Pump</h4>
         </a>
       </div>
       <!-- Equipment Attributes -->
@@ -5717,8 +5779,28 @@
                 </li>
                 <li><strong>Energy Source</strong>
                   <ul>
+                    <li>MCC No.</li>
                     <li>Panel No.</li>
                     <li>Breaker No.</li>
+                  </ul>
+                </li>
+                <li><strong>Check Valve</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Yes</li>
+                    <li>No</li>
+                  </ul>
+                </li>
+                <li><strong>System</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Single</li>
+                    <li>Series</li>
+                  </ul>
+                </li>
+                <li><strong>Disconnect</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Local</li>
+                    <li>VFD</li>
+                    <li>Local &amp; VFD</li>
                   </ul>
                 </li>
               </ul>
@@ -5754,6 +5836,12 @@
             <div class="col-sm-3">
               <!-- Column 4 -->
               <ul>
+                <li><strong>Strainer</strong>
+                  <ul>
+                    <li>Manufacturer</li>
+                    <li>Model</li>
+                  </ul>
+                </li>
                 <li><strong>Line Starter</strong>
                   <ul>
                     <li>Manufacturer</li>
@@ -5967,7 +6055,7 @@
     <div class="row">
       <div class="col-sm-3">
         <a id="electrical-sub-panel">
-          <h4><span style="color:red;">*</span> Electrical Sub Panel</h4>
+          <h4>Electrical Sub Panel</h4>
         </a>
       </div>
       <!-- Equipment Attributes -->
@@ -6027,20 +6115,35 @@
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
-                <li>Available Short Circut Current</li>
+                <li><strong>Available Short Circut Current</strong></li>
+                <li><strong>Arc Flash Rating</strong></li>
+                <li><strong>KVA Rating</strong></li>
               </ul>
             </div>
             <div class="col-sm-3">
               <!-- Column 2 -->
               <ul>
-                <li>Amperage</li>
-                <li>Voltage</li>
+                <li><strong>Amperage</strong></li>
+                <li><strong>Voltage</strong></li>
+                <li><strong>Metered Panel</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Yes</li>
+                    <li>No</li>
+                  </ul>
+                </li>
               </ul>
             </div>
             <div class="col-sm-3">
               <!-- Column 3 -->
               <ul>
-                <li>Breaker Type</li>
+                <li><strong>Breaker Type</strong></li>
+                <li><strong>Main Breaker</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Yes</li>
+                    <li>No</li>
+                  </ul>
+                </li>
+                <li><strong>Main Breaker VA</strong></li>
               </ul>
             </div>
             <div class="col-sm-3">
@@ -6048,6 +6151,7 @@
               <ul>
                 <li><strong>Energy Source</strong>
                   <ul>
+                    <li>Main Distribution Feed</li>
                     <li>Panel No.</li>
                     <li>Breaker No.</li>
                   </ul>
@@ -6065,7 +6169,7 @@
     <div class="row">
       <div class="col-sm-3">
         <a id="elevator">
-          <h4><span style="color:red;">*</span> Elevator</h4>
+          <h4>Elevator</h4>
         </a>
       </div>
       <!-- Equipment Attributes -->
@@ -6132,6 +6236,19 @@
                     <li>Lift</li>
                   </ul>
                 </li>
+                <li><strong>Controls</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>VV</li>
+                    <li>AC</li>
+                  </ul>
+                </li>
+                <li><strong>Special Operations</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>None</li>
+                    <li>Code Blue</li>
+                    <li>Key</li>
+                  </ul>
+                </li>
               </ul>
             </div>
             <div class="col-sm-3">
@@ -6143,18 +6260,55 @@
                     <li>Traction</li>
                   </ul>
                 </li>
+                <li><strong>Operation</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Group Automatic</li>
+                    <li>Simple Collective</li>
+                    <li>Group</li>
+                  </ul>
+                </li>
+                <li><strong>Floor Served</strong></li>
+                <li><strong>Stops</strong></li>
               </ul>
             </div>
             <div class="col-sm-3">
               <!-- Column 3 -->
               <ul>
-                <li>Elevator Phone No.</li>
-                <li>State ID</li>
+                <li><strong>Fire Fighter Services</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>None</li>
+                    <li>Phase I</li>
+                    <li>Phase II</li>
+                  </ul>
+                </li>
+                <li><strong>Phone No.</strong></li>
+                <li><strong>State ID</strong></li>
+                <li><strong>Modernization Date</strong></li>
+                <li><strong>Capacity (lbs)</strong></li>
+                <li><strong>Speed (fpm)</strong></li>
+                <li><strong>Entrance</strong>
+                  <ul>
+                    <li>Type</li>
+                    <li>Size</li>
+                  </ul>
+                </li>
               </ul>
             </div>
             <div class="col-sm-3">
               <!-- Column 4 -->
               <ul>
+                <li><strong>Emergency  Lighting</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Yes</li>
+                    <li>No</li>
+                  </ul>
+                </li>
+                <li><strong>Emergency  Lighting</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Yes</li>
+                    <li>No</li>
+                  </ul>
+                </li>
                 <li><strong>Energy Source</strong>
                   <ul>
                     <li>Panel No.</li>
@@ -6174,7 +6328,7 @@
     <div class="row">
       <div class="col-sm-3">
         <a id="emergency-diesel-generator">
-          <h4><span style="color:red;">*</span> Emergency Diesel Generator</h4>
+          <h4>Emergency Diesel Generator</h4>
         </a>
       </div>
       <!-- Equipment Attributes -->
@@ -6246,8 +6400,27 @@
                     <li>KW</li>
                     <li>Power Factor</li>
                     <li>Battery</li>
+                    <li>No. of Poles</li>
+                    <li>Fuel Pump
+                      <ul>
+                        <li>Manufacturer</li>
+                        <li>Model</li>
+                      </ul>
+                    </li>
                   </ul>
                 </li>
+                <li><strong>Starter</strong>
+                  <ul>
+                    <li>Type <span class="text-hint">(Selector)</span>
+                      <ul>
+                        <li>Air Motor</li>
+                        <li>Electric</li>
+                      </ul>
+                    </li>
+                    <li>Quantity</li>
+                  </ul>
+                </li>
+                <li><strong>Turbo Charger Type</strong></li>
               </ul>
             </div>
             <div class="col-sm-3">
@@ -6269,16 +6442,59 @@
                     <li>Water Pump Belt</li>
                   </ul>
                 </li>
+                <li><strong>Block Heater</strong>
+                  <ul>
+                    <li>Manufacturer</li>
+                    <li>Model</li>
+                  </ul>
+                </li>
               </ul>
             </div>
             <div class="col-sm-3">
               <!-- Column 3 -->
               <ul>
+                <li><strong>Governor</strong>
+                  <ul>
+                    <li>Manufacturer</li>
+                    <li>Model</li>
+                  </ul>
+                </li>
                 <li><strong>Battery</strong>
                   <ul>
                     <li>Manufacturer</li>
                     <li>Type</li>
                     <li>Voltage</li>
+                  </ul>
+                </li>
+                <li><strong>Radiator</strong>
+                  <ul>
+                    <li>Type
+                      <ul>
+                        <li>Belt Driven</li>
+                        <li>Motor Driven</li>
+                      </ul>
+                    </li>
+                    <li>Capacity</li>
+                    <li>Hose Size</li>
+                    <li>Coolant Type</li>
+                    <li>Filter
+                      <ul>
+                        <li>Type</li>
+                        <li>Size</li>
+                        <li>Quantity</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li><strong>Water Separator</strong>
+                  <ul>
+                    <li>Filter
+                      <ul>
+                        <li>Type</li>
+                        <li>Quantity</li>
+                        <li>Size</li>
+                      </ul>
+                    </li>
                   </ul>
                 </li>
               </ul>
@@ -6290,10 +6506,31 @@
                   <ul>
                     <li>Day Tank Capacity</li>
                     <li>Rated Fuel Consumption @ 100%</li>
+                    <li>Filter
+                      <ul>
+                        <li>Type</li>
+                        <li>Size</li>
+                        <li>Quantity</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li><strong>Oil</strong>
+                  <ul>
+                    <li>Type</li>
+                    <li>Capacity</li>
+                    <li>Filter
+                      <ul>
+                        <li>Type</li>
+                        <li>Size</li>
+                        <li>Quantity</li>
+                      </ul>
+                    </li>
                   </ul>
                 </li>
                 <li><strong>Energy Source</strong>
                   <ul>
+                    <li>Main Breaker Rating</li>
                     <li>Panel No.</li>
                     <li>Breaker No.</li>
                   </ul>
@@ -6311,7 +6548,7 @@
     <div class="row">
       <div class="col-sm-3">
         <a id="emergency-lighting-battery">
-          <h4><span style="color:red;">*</span> Emergency Lighting -- Battery</h4>
+          <h4>Emergency Lighting -- Battery</h4>
         </a>
       </div>
       <!-- Equipment Attributes -->
@@ -6371,10 +6608,13 @@
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
-                <li><strong>Energy Source</strong>
+                <li><strong>Battery</strong>
                   <ul>
-                    <li>Panel No.</li>
-                    <li>Breaker No.</li>
+                    <li>Manufacturer</li>
+                    <li>Model</li>
+                    <li>Type</li>
+                    <li>Voltage</li>
+                    <li>Quantity</li>
                   </ul>
                 </li>
               </ul>
@@ -6382,19 +6622,24 @@
             <div class="col-sm-3">
               <!-- Column 2 -->
               <ul>
-                
+                <li><strong>Lamp Type</strong></li>
               </ul>
             </div>
             <div class="col-sm-3">
               <!-- Column 3 -->
               <ul>
-                
+                <li><strong>Amp Hour Ratin</strong>g</li>
               </ul>
             </div>
             <div class="col-sm-3">
               <!-- Column 4 -->
               <ul>
-                
+                <li><strong>Energy Source</strong>
+                  <ul>
+                    <li>Panel No.</li>
+                    <li>Breaker No.</li>
+                  </ul>
+                </li>
               </ul>
             </div>
           </div>
@@ -6408,7 +6653,7 @@
     <div class="row">
       <div class="col-sm-3">
         <a id="emergency-lighting-edg">
-          <h4><span style="color:red;">*</span> Emergency Lighting -- EDG</h4>
+          <h4>Emergency Lighting -- EDG</h4>
         </a>
       </div>
       <!-- Equipment Attributes -->
@@ -6468,12 +6713,7 @@
             <div class="col-sm-3">
               <!-- Column 1 -->
               <ul>
-                <li><strong>Energy Source</strong>
-                  <ul>
-                    <li>Panel No.</li>
-                    <li>Breaker No.</li>
-                  </ul>
-                </li>
+                <li><strong>Lamp Type</strong></li>
               </ul>
             </div>
             <div class="col-sm-3">
@@ -6491,7 +6731,12 @@
             <div class="col-sm-3">
               <!-- Column 4 -->
               <ul>
-                
+                <li><strong>Energy Source</strong>
+                  <ul>
+                    <li>Panel No.</li>
+                    <li>Breaker No.</li>
+                  </ul>
+                </li>
               </ul>
             </div>
           </div>
@@ -6505,7 +6750,7 @@
     <div class="row">
       <div class="col-sm-4">
         <a id="environmental-control-chamber">
-          <h4><span style="color:red;">*</span> Environmental Control Chamber</h4>
+          <h4>Environmental Control Chamber</h4>
         </a>
       </div>
       <!-- Equipment Attributes -->
@@ -6580,6 +6825,8 @@
                   </ul>
                 </li>
                 <li><strong>Adjustable Temp</strong></li>
+                <li><strong>Number of Fans</strong></li>
+                <li><strong>Thermal Expansion Valve Type</strong></li>
               </ul>
             </div>
             <div class="col-sm-3">
@@ -6587,12 +6834,12 @@
               <ul>
                 <li><strong>Condensing Unit</strong>
                   <ul>
-                    <li><strong>Refrigeration</strong>
+                    <li>Refrigeration
                       <ul>
                          <li>Capacity (W)</li>
                          <li>Evaporating Temp</li>
                       </ul>
-                    <li><strong>Fan Motor</strong>
+                    <li>Fan Motor
                       <ul>
                         <li>Quantity</li>
                         <li>Horsepower</li>
@@ -6602,6 +6849,18 @@
                         <li>Hertz</li>
                       </ul>
                     </li>
+                    <li>Energy Source
+                      <ul>
+                        <li>Panel No.</li>
+                        <li>Breaker No.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li><strong>Condenser Water</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>City</li>
+                    <li>Chill Water Cooling</li>
                   </ul>
                 </li>
               </ul>
@@ -6611,16 +6870,46 @@
               <ul>
                 <li><strong>Refrigerant</strong>
                   <ul>
-                    <li>Refrigerant</li>
+                    <li>Type</li>
                     <li>Charge (lbs)</li>
                   </ul>
                 </li>
                 <li><strong>Evaporator</strong>
                   <ul>
                     <li>Fan Motor Max Amps</li>
+                    <li>Energy Source
+                      <ul>
+                        <li>Panel No.</li>
+                        <li>Breaker No.</li>
+                      </ul>
+                    </li>
                   </ul>
                 </li>
                 <li><strong>Min Circulation Ampacity</strong></li>
+                <li><strong>Remote Monitoring Capable</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Yes</li>
+                    <li>No</li>
+                  </ul>
+                </li>
+                <li><strong>Tied to BMS</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Yes</li>
+                    <li>No</li>
+                  </ul>
+                </li>
+                <li><strong>Tied to Emergency Power</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Yes</li>
+                    <li>No</li>
+                  </ul>
+                </li>
+                <li><strong>Control Panel</strong>
+                  <ul>
+                    <li>Manufacturer</li>
+                    <li>Model</li>
+                  </ul>
+                </li>
                 <li><strong>Max Overcurrent Protection Device Amps</strong></li>
               </ul>
             </div>
@@ -6629,7 +6918,13 @@
               <ul>
                 <li><strong>Crankcase Heater Watts</strong></li>
                 <li><strong>Defrost Heater Max Amps</strong></li>
-                <li><strong>Energy Source</strong>
+                <li><strong>Receptacle Energy Source</strong>
+                  <ul>
+                    <li>Panel No.</li>
+                    <li>Breaker No.</li>
+                  </ul>
+                </li>
+                <li><strong>Lighting Energy Source</strong>
                   <ul>
                     <li>Panel No.</li>
                     <li>Breaker No.</li>
@@ -6642,6 +6937,285 @@
       </div>
       <!-- / Equipment Attributes -->
     </div>  <!-- / ENVIRONMENTAL CONTROL CHAMBER -->
+
+
+    <!-- EXHAUST FAN -->
+    <div class="row">
+      <div class="col-sm-4">
+        <a id="exhaust-fan">
+          <h4>Exhaust Fan</h4>
+        </a>
+      </div>
+      <!-- Equipment Attributes -->
+      <div id="exhaust-fan-attr">
+        <div class="col-sm-8">
+          <div class="row">
+            <div class="col-sm-12 mxDefault" id="exhaust-fan-default">
+              <h5>Maximo Default</h5>
+            </div>
+          </div>
+          <div class="row" id="exhaust-fan-default-show">
+            <div class="col-sm-3">
+              <!-- Column 1 -->
+              <ul>
+                <li>Asset Number</li>
+                <li>Facilities Services Asset Item ID</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 2 -->
+              <ul>
+                <li><strong>Location</strong>
+                  <ul>
+                    <li>Building</li>
+                    <li>Floor</li>
+                    <li>Room</li>
+                    <li>Reference Location</li>
+                    <li>Area of Service</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 3 -->
+              <ul>
+                <li>Manufacturer</li>
+                <li>Model</li>
+                <li>Serial Number</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 4 -->
+              <ul>
+                <li>Installation Date</li>
+                <li>Purchase Price</li>
+                <li>Replacement Cost</li>
+                <li>Warranty Date</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 mxSpecific">
+              <h5>Equipment Specific</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              <!-- Column 1 -->
+              <ul>
+                <li><strong>Fan</strong>
+                  <ul>
+                    <li>RPM</li>
+                    <li>CFM</li>
+                    <li>Shaft</li>
+                    <li>Sheave</li>
+                    <li>Bushing</li>
+                    <li>Bearing</li>
+                  </ul>
+                </li>
+                <li><strong>Grease Type</strong>
+                  <ul>
+                    <li>Pillow Block</li>
+                    <li>Motor</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 2 -->
+              <ul>
+                <li><strong>Motor</strong>
+                  <ul>
+                    <li>Manufacturer</li>
+                    <li>Model No.</li>
+                    <li>Serial No.</li>
+                    <li>RPM</li>
+                    <li>Volts</li>
+                    <li>Amperage</li>
+                    <li>Phase</li>
+                    <li>Type</li>
+                    <li>Design</li>
+                    <li>Duty</li>
+                    <li>Enclosure</li>
+                    <li>Frame</li>
+                    <li>Insulation Class</li>
+                    <li>Sheave</li>
+                    <li>Bushing</li>
+                    <li>Service Factor</li>
+                    <li>Bearing No. 1</li>
+                    <li>Bearing No. 2</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 3 -->
+              <ul>
+                <li><strong>Line Starter</strong>
+                  <ul>
+                    <li>Manufacturer</li>
+                    <li>Model No.</li>
+                    <li>Style</li>
+                    <li>CAT No.</li>
+                    <li>Code</li>
+                    <li>Control Voltage</li>
+                    <li>Voltage</li>
+                    <li>NEMA Size</li>
+                    <li>Max Amps</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 4 -->
+              <ul>
+                <li><strong>V-Belt</strong>
+                  <ul>
+                    <li>Type</li>
+                    <li>Quantity</li>
+                  </ul>
+                </li>
+                <li><strong>Energy Source</strong>
+                  <ul>
+                    <li>Panel No.</li>
+                    <li>Breaker No.</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- / Equipment Attributes -->
+    </div>  <!-- / EXHAUST FAN -->
+
+
+    <!-- EXIT SIGNS -->
+    <div class="row">
+      <div class="col-sm-4">
+        <a id="exit-signs">
+          <h4>Exit Signs</h4>
+        </a>
+      </div>
+      <!-- Equipment Attributes -->
+      <div id="exit-signs-attr">
+        <div class="col-sm-8">
+          <div class="row">
+            <div class="col-sm-12 mxDefault" id="exit-signs-default">
+              <h5>Maximo Default</h5>
+            </div>
+          </div>
+          <div class="row" id="exit-signs-default-show">
+            <div class="col-sm-3">
+              <!-- Column 1 -->
+              <ul>
+                <li>Asset Number</li>
+                <li>Facilities Services Asset Item ID</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 2 -->
+              <ul>
+                <li><strong>Location</strong>
+                  <ul>
+                    <li>Building</li>
+                    <li>Floor</li>
+                    <li>Room</li>
+                    <li>Reference Location</li>
+                    <li>Area of Service</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 3 -->
+              <ul>
+                <li>Manufacturer</li>
+                <li>Model</li>
+                <li>Serial Number</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 4 -->
+              <ul>
+                <li>Installation Date</li>
+                <li>Purchase Price</li>
+                <li>Replacement Cost</li>
+                <li>Warranty Date</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 mxSpecific">
+              <h5>Equipment Specific</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              <!-- Column 1 -->
+              <ul>
+                <li><strong>Self-Testing</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Yes</li>
+                    <li>No</li>
+                  </ul>
+                </li>
+                <li><strong>Lamp Type</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>LED</li>
+                    <li>Photoluminous</li>
+                    <li>Tritium</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 2 -->
+              <ul>
+                <li><strong>Battery Backup</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Yes</li>
+                    <li>No</li>
+                  </ul>
+                </li>
+                <li><strong>Battery Part No.</strong></li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 3 -->
+              <ul>
+                <li><strong>Emergency Power</strong> <span class="text-hint">(Selector)</span>
+                  <ul>
+                    <li>Yes</li>
+                    <li>No</li>
+                  </ul>
+                </li>
+                <li><strong>Voltage</strong></li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <!-- Column 4 -->
+              <ul>
+                <li><strong>V-Belt</strong>
+                  <ul>
+                    <li>Type</li>
+                    <li>Quantity</li>
+                  </ul>
+                </li>
+                <li><strong>Energy Source</strong>
+                  <ul>
+                    <li>Panel No.</li>
+                    <li>Breaker No.</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- / Equipment Attributes -->
+    </div>
+    <!-- / EXIT SIGNS -->
 
 
 

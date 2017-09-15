@@ -176,7 +176,9 @@ a:focus {
 #emergency-diesel-generator-attr,
 #emergency-lighting-battery-attr,
 #emergency-lighting-edg-attr,
-#environmental-control-chamber-attr {
+#environmental-control-chamber-attr,
+#exhaust-fan-attr,
+#exit-signs-attr {
   display: none;
 }
 
@@ -228,6 +230,8 @@ a:focus {
 #emergency-diesel-generator-default-show,
 #emergency-lighting-battery-default-show,
 #emergency-lighting-edg-default-show,
-#environmental-control-chamber-default-show {
+#environmental-control-chamber-default-show,
+#exhaust-fan-default-show,
+#exit-signs-default-show {
   display: none;
 }
