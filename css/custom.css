@@ -179,7 +179,12 @@ a:focus {
 #environmental-control-chamber-attr,
 #exhaust-fan-attr,
 #exit-signs-attr,
-#expansion-tank-attr {
+#expansion-tank-attr,
+#exterior-door-attr,
+#fan-coil-unit-attr,
+#fire-alarm-panel-attr,
+#fire-curtains-attr,
+#fire-smoke-damper-attr {
   display: none;
 }
 
@@ -234,6 +239,11 @@ a:focus {
 #environmental-control-chamber-default-show,
 #exhaust-fan-default-show,
 #exit-signs-default-show,
-#expansion-tank-default-show {
+#expansion-tank-default-show,
+#exterior-door-default-show,
+#fan-coil-unit-default-show,
+#fire-alarm-panel-default-show,
+#fire-curtains-default-show,
+#fire-smoke-damper-default-show {
   display: none;
 }

@@ -149,6 +149,21 @@ $(document).ready(function () {
   $('#expansion-tank').click(function () {
     $('#expansion-tank-attr').slideToggle("slow");
   });
+  $('#exterior-door').click(function () {
+    $('#exterior-door-attr').slideToggle("slow");
+  });
+  $('#fan-coil-unit').click(function () {
+    $('#fan-coil-unit-attr').slideToggle("slow");
+  });
+  $('#fire-alarm-panel').click(function () {
+    $('#fire-alarm-panel-attr').slideToggle("slow");
+  });
+  $('#fire-curtains').click(function () {
+    $('#fire-curtains-attr').slideToggle("slow");
+  });
+  $('#fire-smoke-damper').click(function () {
+    $('#fire-smoke-damper-attr').slideToggle("slow");
+  });
 });
 
 
@@ -305,5 +320,20 @@ $(document).ready(function() {
   });
   $('#expansion-tank-default').click(function () {
     $('#expansion-tank-default-show').slideToggle("slow");
+  });
+  $('#exterior-door-default').click(function () {
+    $('#exterior-door-default-show').slideToggle("slow");
+  });
+  $('#fan-coil-unit-default').click(function () {
+    $('#fan-coil-unit-default-show').slideToggle("slow");
+  });
+  $('#fire-alarm-panel-default').click(function () {
+    $('#fire-alarm-panel-default-show').slideToggle("slow");
+  });
+  $('#fire-curtains-default').click(function () {
+    $('#fire-curtains-default-show').slideToggle("slow");
+  });
+  $('#fire-smoke-damper-default').click(function () {
+    $('#fire-smoke-damper-default-show').slideToggle("slow");
   });
 });
