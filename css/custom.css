@@ -178,7 +178,8 @@ a:focus {
 #emergency-lighting-edg-attr,
 #environmental-control-chamber-attr,
 #exhaust-fan-attr,
-#exit-signs-attr {
+#exit-signs-attr,
+#expansion-tank-attr {
   display: none;
 }
 
@@ -232,6 +233,7 @@ a:focus {
 #emergency-lighting-edg-default-show,
 #environmental-control-chamber-default-show,
 #exhaust-fan-default-show,
-#exit-signs-default-show {
+#exit-signs-default-show,
+#expansion-tank-default-show {
   display: none;
 }

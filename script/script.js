@@ -146,6 +146,9 @@ $(document).ready(function () {
   $('#exit-signs').click(function () {
     $('#exit-signs-attr').slideToggle("slow");
   });
+  $('#expansion-tank').click(function () {
+    $('#expansion-tank-attr').slideToggle("slow");
+  });
 });
 
 
@@ -299,5 +302,8 @@ $(document).ready(function() {
   });
   $('#exit-signs-default').click(function () {
     $('#exit-signs-default-show').slideToggle("slow");
+  });
+  $('#expansion-tank-default').click(function () {
+    $('#expansion-tank-default-show').slideToggle("slow");
   });
 });
