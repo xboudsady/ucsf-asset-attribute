@@ -164,6 +164,45 @@ $(document).ready(function () {
   $('#fire-smoke-damper').click(function () {
     $('#fire-smoke-damper-attr').slideToggle("slow");
   });
+  $('#fire-damper').click(function () {
+    $('#fire-damper-attr').slideToggle("slow");
+  });
+  $('#fire-pump').click(function () {
+    $('#fire-pump-attr').slideToggle("slow");
+  });
+  $('#fire-door').click(function () {
+    $('#fire-door-attr').slideToggle("slow");
+  });
+  $('#fire-pre-action-system').click(function () {
+    $('#fire-pre-action-system-attr').slideToggle("slow");
+  });
+  $('#fire-supression-system').click(function () {
+    $('#fire-supression-system-attr').slideToggle("slow");
+  });
+  $('#fixed-ladder').click(function () {
+    $('#fixed-ladder-attr').slideToggle("slow");
+  });
+  $('#fuel-oil-cooler').click(function () {
+    $('#fuel-oil-cooler-attr').slideToggle("slow");
+  });
+  $('#fuel-oil-pump').click(function () {
+    $('#fuel-oil-pump-attr').slideToggle("slow");
+  });
+  $('#fuel-oil-polishing-system').click(function () {
+    $('#fuel-oil-polishing-system-attr').slideToggle("slow");
+  });
+  $('#fume-hood').click(function () {
+    $('#fume-hood-attr').slideToggle("slow");
+  });
+  $('#furnace').click(function () {
+    $('#furnace-attr').slideToggle("slow");
+  });
+  $('#gas-shut-off-valve').click(function () {
+    $('#gas-shut-off-valve-attr').slideToggle("slow");
+  });
+  $('#interceptor').click(function () {
+    $('#interceptor-attr').slideToggle("slow");
+  });
 });
 
 
@@ -335,5 +374,41 @@ $(document).ready(function() {
   });
   $('#fire-smoke-damper-default').click(function () {
     $('#fire-smoke-damper-default-show').slideToggle("slow");
+  });
+  $('#fire-damper-default').click(function () {
+    $('#fire-damper-default-show').slideToggle("slow");
+  });
+  $('#fire-pump-default').click(function () {
+    $('#fire-pump-default-show').slideToggle("slow");
+  });
+  $('#fire-door-default').click(function () {
+    $('#fire-door-default-show').slideToggle("slow");
+  });
+  $('#fire-pre-action-default').click(function () {
+    $('#fire-pre-action-default-show').slideToggle("slow");
+  });
+  $('#fire-supression-default').click(function () {
+    $('#fire-supression-default-show').slideToggle("slow");
+  });
+  $('#fixed-ladder-default').click(function () {
+    $('#fixed-ladder-default-show').slideToggle("slow");
+  });
+  $('#fuel-oil-cooler-default').click(function () {
+    $('#fuel-oil-cooler-default-show').slideToggle("slow");
+  });
+  $('#fuel-oil-pump-default').click(function () {
+    $('#fuel-oil-pump-default-show').slideToggle("slow");
+  });
+  $('#fuel-oil-polishing-system-default').click(function () {
+    $('#fuel-oil-polishing-system-default-show').slideToggle("slow");
+  });
+  $('#fume-hood-default').click(function () {
+    $('#fume-hood-default-show').slideToggle("slow");
+  });
+  $('#furnace-default').click(function () {
+    $('#furnace-default-show').slideToggle("slow");
+  });
+  $('#interceptor-default').click(function () {
+    $('#interceptor-default-show').slideToggle("slow");
   });
 });

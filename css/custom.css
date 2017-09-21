@@ -184,7 +184,20 @@ a:focus {
 #fan-coil-unit-attr,
 #fire-alarm-panel-attr,
 #fire-curtains-attr,
-#fire-smoke-damper-attr {
+#fire-smoke-damper-attr,
+#fire-damper-attr,
+#fire-pump-attr,
+#fire-door-attr,
+#fire-pre-action-system-attr,
+#fire-supression-system-attr,
+#fixed-ladder-attr,
+#fuel-oil-cooler-attr,
+#fuel-oil-pump-attr,
+#fuel-oil-polishing-system-attr,
+#fume-hood-attr,
+#furnace-attr,
+#gas-shut-off-valve-attr,
+#interceptor-attr {
   display: none;
 }
 
@@ -244,6 +257,19 @@ a:focus {
 #fan-coil-unit-default-show,
 #fire-alarm-panel-default-show,
 #fire-curtains-default-show,
-#fire-smoke-damper-default-show {
+#fire-smoke-damper-default-show,
+#fire-damper-default-show,
+#fire-pump-default-show,
+#fire-door-default-show,
+#fire-pre-action-system-default-show,
+#fire-supression-system-default-show,
+#fixed-ladder-default-show,
+#fuel-oil-cooler-default-show,
+#fuel-oil-pump-default-show,
+#fuel-oil-polishing-system-default-show,
+#fume-hood-default-show,
+#furnace-default-show,
+#gas-shut-off-valve-default-show,
+#interceptor-default-show  {
   display: none;
 }
