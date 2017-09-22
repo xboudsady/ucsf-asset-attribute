@@ -203,6 +203,24 @@ $(document).ready(function () {
   $('#interceptor').click(function () {
     $('#interceptor-attr').slideToggle("slow");
   });
+  $('#heating-coils').click(function () {
+    $('#heating-coils-attr').slideToggle("slow");
+  });
+  $('#heat-exchanger').click(function () {
+    $('#heat-exchanger-attr').slideToggle("slow");
+  });
+  $('#heat-pump').click(function () {
+    $('#heat-pump-attr').slideToggle("slow");
+  });
+  $('#heating-hot-water-boiler').click(function () {
+    $('#heating-hot-water-boiler-attr').slideToggle("slow");
+  });
+  $('#heating-hot-water-pump').click(function () {
+    $('#heating-hot-water-pump-attr').slideToggle("slow");
+  });
+  $('#heating-hot-water-circulating-pump').click(function () {
+    $('#heating-hot-water-circulating-pump-attr').slideToggle("slow");
+  });
 });
 
 
@@ -408,7 +426,22 @@ $(document).ready(function() {
   $('#furnace-default').click(function () {
     $('#furnace-default-show').slideToggle("slow");
   });
-  $('#interceptor-default').click(function () {
-    $('#interceptor-default-show').slideToggle("slow");
+  $('#heating-coils-default').click(function () {
+    $('#heating-coils-default-show').slideToggle("slow");
+  });
+  $('#heat-exchanger-default').click(function () {
+    $('#heat-exchanger-default-show').slideToggle("slow");
+  });
+  $('#heat-pump-default').click(function () {
+    $('#heat-pump-default-show').slideToggle("slow");
+  });
+  $('#heating-hot-water-boiler-default').click(function () {
+    $('#heating-hot-water-boiler-default-show').slideToggle("slow");
+  });
+  $('#heating-hot-water-pump-default').click(function () {
+    $('#heating-hot-water-pump-default-show').slideToggle("slow");
+  });
+  $('#heating-hot-water-circulating-pump-default').click(function () {
+    $('#heating-hot-water-circulating-pump-default-show').slideToggle("slow");
   });
 });

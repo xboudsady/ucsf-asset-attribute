@@ -197,7 +197,13 @@ a:focus {
 #fume-hood-attr,
 #furnace-attr,
 #gas-shut-off-valve-attr,
-#interceptor-attr {
+#interceptor-attr,
+#heating-coils-attr,
+#heat-exchanger-attr,
+#heat-pump-attr,
+#heating-hot-water-boiler-attr,
+#heating-hot-water-pump-attr,
+#heating-hot-water-circulating-pump-attr {
   display: none;
 }
 
@@ -270,6 +276,12 @@ a:focus {
 #fume-hood-default-show,
 #furnace-default-show,
 #gas-shut-off-valve-default-show,
-#interceptor-default-show  {
+#interceptor-default-show,
+#heating-coils-default-show,
+#heat-exchanger-default-show,
+#heat-pump-default-show,
+#heating-hot-water-boiler-default-show,
+#heating-hot-water-pump-default-show,
+#heating-hot-water-circulating-pump-default-show {
   display: none;
 }
