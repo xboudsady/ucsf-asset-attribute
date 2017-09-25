@@ -203,7 +203,8 @@ a:focus {
 #heat-pump-attr,
 #heating-hot-water-boiler-attr,
 #heating-hot-water-pump-attr,
-#heating-hot-water-circulating-pump-attr {
+#heating-hot-water-circulating-pump-attr,
+#humidifier-attr {
   display: none;
 }
 
@@ -282,6 +283,7 @@ a:focus {
 #heat-pump-default-show,
 #heating-hot-water-boiler-default-show,
 #heating-hot-water-pump-default-show,
-#heating-hot-water-circulating-pump-default-show {
+#heating-hot-water-circulating-pump-default-show,
+#humidifier-default-show {
   display: none;
 }

@@ -221,6 +221,9 @@ $(document).ready(function () {
   $('#heating-hot-water-circulating-pump').click(function () {
     $('#heating-hot-water-circulating-pump-attr').slideToggle("slow");
   });
+  $('#humidifier').click(function () {
+    $('#humidifier-attr').slideToggle("slow");
+  });
 });
 
 
@@ -443,5 +446,8 @@ $(document).ready(function() {
   });
   $('#heating-hot-water-circulating-pump-default').click(function () {
     $('#heating-hot-water-circulating-pump-default-show').slideToggle("slow");
+  });
+  $('#humidifier-default').click(function () {
+    $('#humidifier-default-show').slideToggle("slow");
   });
 });
